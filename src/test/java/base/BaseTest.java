@@ -22,7 +22,7 @@ public class BaseTest {
         PropertyConfigurator.configure("properties/log4j.properties");
         log.info("Settings Installation Start");
 
-        String key = "demirelahmet:bba815c75f0c90da38b258e1df762c06";
+        String key = "selidalk:b15114635d227239a56cf3934f10e075";
 
         if(StringUtils.isEmpty(System.getenv("key"))){
             browser.createLocalDriver();
