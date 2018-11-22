@@ -9,6 +9,7 @@ import utils.Browser;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
     public static RemoteWebDriver driver;
@@ -18,6 +19,7 @@ public class BaseTest {
     protected static Browser browser = new Browser();
 
     public void setUp(){
+
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         PropertyConfigurator.configure("properties/log4j.properties");
         log.info("Settings Installation Start");
