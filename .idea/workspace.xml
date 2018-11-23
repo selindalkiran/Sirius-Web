@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a9d157b-1aa7-48aa-aa9a-4d5e81359992" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/WaitingActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/web.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/web.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/GaugeBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/GaugeBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="4a9d157b-1aa7-48aa-aa9a-4d5e81359992" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
