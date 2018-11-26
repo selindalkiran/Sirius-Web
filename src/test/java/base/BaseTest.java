@@ -33,7 +33,8 @@ public class BaseTest {
         else{
             capabilities.setCapability("key", key);
             try {
-                setDriver(new RemoteWebDriver(new URL("http://127.0.0.1/wd/hub"), capabilities));
+                //setDriver(new RemoteWebDriver(new URL("http://127.0.0.1/wd/hub"), capabilities));
+                Browser.setBrowser("chrome","LATEST","http://hub.testinium.io/wd/hub",1);
                 capabilities.setCapability(CapabilityType.TAKES_SCREENSHOT, true);
                 capabilities.setCapability("recordsVideo", true);
                 capabilities.setCapability("screenResolution", "SXGA");

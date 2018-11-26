@@ -15,13 +15,13 @@ import java.util.concurrent.TimeUnit;
 public class Browser {
 
     public static final String URL = "http://hub.testinium.io/wd/hub";
-    private DesiredCapabilities capabilities;
+    public DesiredCapabilities capabilities;
 
-    public void setBrowser(String browserName, String browserVersion, String url, int implicitlyWait)
+    public static void setBrowser(String browserName, String browserVersion, String url, int implicitlyWait)
             throws MalformedURLException {
-        URL hub = new URL(URL);
+        URL hub = new URL(url);
         String key = null;
-
+        DesiredCapabilities capabilities;
         if(StringUtils.isNotEmpty(key)){
             ChromeOptions options = new ChromeOptions();
             capabilities = DesiredCapabilities.chrome();
@@ -46,8 +46,8 @@ public class Browser {
             capabilities.setBrowserName("chrome");
             capabilities.setPlatform(Platform.getCurrent());
 
-            selectPath(capabilities.getPlatform());
-            createLocalDriver();
+            //selectPath(capabilities.getPlatform());
+            //createLocalDriver();
 
             BaseTest.getDriver().manage().timeouts().implicitlyWait(implicitlyWait, TimeUnit.SECONDS);
             BaseTest.getDriver().manage().window().maximize();
