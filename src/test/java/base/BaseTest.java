@@ -21,18 +21,24 @@ public class BaseTest {
 
     public void setUp(){
 
-        DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+
         PropertyConfigurator.configure("properties/log4j.properties");
         log.info("Settings Installation Start");
 
-        String key = "selidalk:b15114635d227239a56cf3934f10e075";
+        String KEY = "selidalk:b15114635d227239a56cf3934f10e075";
 
         if(StringUtils.isEmpty(System.getenv("key"))){
             browser.createLocalDriver();
         }
         else{
-            capabilities.setCapability("key", key);
+
             try {
+                DesiredCapabilities capabilities = new DesiredCapabilities();
+                capabilities.setCapability("key", KEY);
+
+                capabilities.setCapability(CapabilityType.PLATFORM, "WIN10");
+                capabilities.setCapability(CapabilityType.BROWSER_NAME, "chrome");
+                capabilities.setCapability(CapabilityType.VERSION, "LATEST");
                 capabilities.setCapability(CapabilityType.TAKES_SCREENSHOT, true);
                 capabilities.setCapability("recordsVideo", true);
                 capabilities.setCapability("screenResolution", "SXGA");
