@@ -74,6 +74,6 @@ public class BaseTest {
 
     }
     public  static void tearDown(){
-        getDriver().quit();
+        //getDriver().quit();
     }
 }
