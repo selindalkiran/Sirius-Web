@@ -1,0 +1,26 @@
+{
+  "ILETISIM YOLU":{
+    "cssSelector":"#__layout > div > div > div > section > section > div.b-tabs > section > div:nth-child(1) > div > div:nth-child(7) > div > span > select"
+  },
+  "ISE ALIM UZMANI":{
+    "cssSelector":"#__layout > div > div > div > section > section > div.b-tabs > section > div:nth-child(2) > div > div.columns > div:nth-child(1) > div:nth-child(1) > div > span > select"
+  },
+  "ISE BASLANGIC TARIHI":{
+    "cssSelector":"#__layout > div > div > div > section > section > div.b-tabs > section > div:nth-child(2) > div > div.columns > div:nth-child(1) > div:nth-child(2) > div > div > div.dropdown-trigger > div > input"
+  },
+  "ORGANIZASYON":{
+    "cssSelector":"#__layout > div > div > div > section > section > div.b-tabs > section > div:nth-child(3) > div > div.columns > div:nth-child(1) > div:nth-child(1) > div > span > select"
+  },
+  "SIRKET":{
+    "cssSelector":"#__layout > div > div > div > section > section > div.b-tabs > section > div:nth-child(3) > div > div.columns > div:nth-child(1) > div:nth-child(2) > div > span > select"
+  },
+  "CALISMA LOKASYONU":{
+    "cssSelector":"#__layout > div > div > div > section > section > div.b-tabs > section > div:nth-child(3) > div > div.columns > div:nth-child(1) > div.field.is-grouped > p:nth-child(1) > div > span > select"
+  },
+  "IKIO":{
+    "cssSelector":"#__layout > div > div > div > section > section > div.b-tabs > section > div:nth-child(3) > div > div.columns > div:nth-child(1) > div:nth-child(8) > div > span > select"
+  },
+  "EVRAK TESLIM":{
+    "cssSelector":"[class='check']"
+  }
+}

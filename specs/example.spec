@@ -10,3 +10,4 @@ To execute this specification, run
 
 ## Vowel counts in multiple word
 * "https://www.linkedin.com" url sayfasina gidilir
+* "AD" alanına "Ahmet" metni yazılır

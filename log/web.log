@@ -5,3 +5,10 @@
 2018-11-26 11:10:21 INFO  BaseTest:32 - Settings Installation Start
 2018-11-26 11:12:41 INFO  BaseTest:32 - Settings Installation Start
 2018-11-26 11:16:05 INFO  BaseTest:32 - Settings Installation Start
+2018-11-26 13:06:39 INFO  BaseTest:32 - Settings Installation Start
+2018-11-26 13:07:37 INFO  BaseTest:32 - Settings Installation Start
+2018-11-26 13:07:43 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-11-26 13:07:43 INFO  Mapper:36 - EVENT ACTIVITY TYPE :input-element
+2018-11-26 13:07:43 INFO  Mapper:55 - ********** Map:{"cssSelector":"#__layout > div > div > div > section > section > div.b-tabs > section > div:nth-child(1) > div > div:nth-child(1) > div > input"}
+2018-11-26 13:07:43 INFO  Mapper:71 - BY GENERATE :cssSelector-"#__layout > div > div > div > section > section > div.b-tabs > section > div:nth-child(1) > div > div:nth-child(1) > div > input"
+2018-11-26 13:07:43 INFO  Mapper:74 - BY + By.cssSelector: #__layout > div > div > div > section > section > div.b-tabs > section > div:nth-child(1) > div > div:nth-child(1) > div > input

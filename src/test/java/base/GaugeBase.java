@@ -12,11 +12,11 @@ public class GaugeBase extends BasePage{
         navigateTo(url);
     }
 
-    public void click(By by){
 
+
+    public void SendKeys(By by, String text) {
+        sendKeys(by, text);
     }
-
-
 
 
 

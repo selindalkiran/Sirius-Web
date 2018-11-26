@@ -1,0 +1,32 @@
+{
+  "ISE GIRIS ISLEMLERI":{
+    "cssSelector":"#__layout > div > div > div > div > aside > ul > li:nth-child(1) > a > span.menu-item"
+  },
+  "BY ISE GIRIS":{
+    "cssSelector":"[href='/white-collar']"
+  },
+  "PERSONEL DETAY BILGILERI":{
+    "cssSelector":"#__layout > div > div > div > section > section > div.b-tabs > nav > ul > li:nth-child(2) > a"
+  },
+  "EMEKLI":{
+    "cssSelector":"#__layout > div > div > div > section > section > div.b-tabs > section > div:nth-child(2) > div > div.columns > div:nth-child(2) > div:nth-child(3) > label > span.check"
+  },
+  "ORGANIZASYON BILGILERI":{
+    "cssSelector":"#__layout > div > div > div > section > section > div.b-tabs > nav > ul > li:nth-child(3) > a"
+  },
+  "YONETICI ARAMA SONUCU":{
+    "cssSelector":"#__layout > div > div > div > section > section > div.b-tabs > section > div:nth-child(3) > div > div.columns > div:nth-child(1) > div:nth-child(9) > div > div.dropdown-menu > div > a > span"
+  },
+  "MUDUR ALTI":{
+    "cssSelector":"#__layout > div > div > div > section > section > div.b-tabs > section > div:nth-child(3) > div > div.columns > div:nth-child(2) > div:nth-child(4) > label > span.check"
+  },
+  "EVRAK LISTESI":{
+    "cssSelector":"#__layout > div > div > div > section > section > div.b-tabs > nav > ul > li:nth-child(4) > a"
+  },
+  "PERSONEL GIRISINI BASLAT":{
+    "cssSelector":"#__layout > div > div > div > section > section > div.b-tabs > section > div:nth-child(4) > div > div.field.is-grouped > p:nth-child(1) > button"
+  },
+  "FOTO SECIMI":{
+    "cssSelector":"#__layout > div > div > div > section > section > div.b-tabs > section > div:nth-child(4) > div > div.b-table > div.table-wrapper > table > tbody > tr:nth-child(1) > td:nth-child(4) > span > label > span.check"
+  }
+}
