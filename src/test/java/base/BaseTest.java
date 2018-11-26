@@ -19,24 +19,32 @@ public class BaseTest {
     protected static final Logger log = Logger.getLogger(BaseTest.class);
     //protected static Configuration config = Configuration.getInstance();
     protected static Browser browser = new Browser();
+    public static Boolean isTestinium = false;
 
     public static final String USERNAME = "selidalk";
     public static final String ACCESS_KEY = "b15114635d227239a56cf3934f10e075";
     public static final String KEY = USERNAME + ":" + ACCESS_KEY;
 
-    public void setUp(){
+    public void setUp() throws Exception{
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+        capabilities.setCapability("key", System.getProperty("key"));
         PropertyConfigurator.configure("properties/log4j.properties");
         log.info("Settings Installation Start");
-        
-        capabilities.setCapability("key", KEY);
-        try {
+        if (StringUtils.isEmpty(System.getProperty("key"))){
+            browser.createLocalDriver();
+        }
+        else {
+            isTestinium = true;
+            setDriver(new RemoteWebDriver(new URL("http://hub.testinium.io/wd/hub"), capabilities));
+        }
+
+        /**try {
             capabilities.setCapability("takesScreenshot", true);
             capabilities.setPlatform(Platform.WIN10);
             setDriver(new RemoteWebDriver(new URL("http://hub.testinium.io/wd/hub"), capabilities));
         } catch (MalformedURLException e) {
             log.error(e.getMessage());
-        }
+        }**/
 
 
 

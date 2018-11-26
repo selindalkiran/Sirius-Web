@@ -18,8 +18,8 @@
       <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+            <state relative-caret-position="886">
+              <caret line="80" column="33" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1963#1964#0" expanded="true" />
@@ -768,8 +768,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state relative-caret-position="886">
+          <caret line="80" column="33" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1963#1964#0" expanded="true" />
