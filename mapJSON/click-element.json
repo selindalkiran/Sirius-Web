@@ -31,5 +31,6 @@
   },
   "LOGIN":{
     "cssSelector":"body > header > nav > div > div > ul:nth-child(3) > li:nth-child(1) > a"
-  }
+  },
+  deneneme
 }
