@@ -36,6 +36,7 @@ public class BaseTest {
         else {
             try {
                 capabilities.setCapability("takesScreenshot", true);
+                log.info("takesScreenshot");
                 isTestinium = true;
                 setDriver(new RemoteWebDriver(new URL("http://hub.testinium.io/wd/hub"), capabilities));
             } catch (MalformedURLException e) {
