@@ -25,7 +25,7 @@ public class BaseTest {
     public static final String ACCESS_KEY = "b15114635d227239a56cf3934f10e075";
     public static final String KEY = USERNAME + ":" + ACCESS_KEY;
 
-    public void setUp() throws Exception{
+    public void setUp(){
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         capabilities.setCapability("key", System.getProperty("key"));
         PropertyConfigurator.configure("properties/log4j.properties");
@@ -34,8 +34,14 @@ public class BaseTest {
             browser.createLocalDriver();
         }
         else {
-            isTestinium = true;
-            setDriver(new RemoteWebDriver(new URL("http://hub.testinium.io/wd/hub"), capabilities));
+            try {
+                capabilities.setCapability("takesScreenshot", true);
+                isTestinium = true;
+                setDriver(new RemoteWebDriver(new URL("http://hub.testinium.io/wd/hub"), capabilities));
+            } catch (MalformedURLException e) {
+                log.error(e.getMessage());
+            }
+
         }
 
         /**try {

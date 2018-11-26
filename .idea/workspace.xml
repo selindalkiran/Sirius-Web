@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4a9d157b-1aa7-48aa-aa9a-4d5e81359992" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/StepImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/StepImplementation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,8 +19,8 @@
       <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="886">
-              <caret line="80" column="33" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="33" />
+            <state relative-caret-position="481">
+              <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1963#1964#0" expanded="true" />
@@ -45,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/test/StepImplementation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -112,7 +113,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/base/BasePageUtil.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/StepImplementation.java" />
         <option value="$PROJECT_DIR$/specs/example.spec" />
         <option value="$PROJECT_DIR$/src/test/java/mapping/MapValue.java" />
         <option value="$PROJECT_DIR$/src/test/java/mapping/MapMethodType.java" />
@@ -124,6 +124,7 @@
         <option value="$PROJECT_DIR$/src/test/java/utils/WaitingActions.java" />
         <option value="$PROJECT_DIR$/src/test/java/base/GaugeBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/Browser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/StepImplementation.java" />
         <option value="$PROJECT_DIR$/src/test/java/base/BaseTest.java" />
       </list>
     </option>
@@ -735,13 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/StepImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/specs/example.spec">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -766,10 +760,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/StepImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="886">
-          <caret line="80" column="33" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="33" />
+        <state relative-caret-position="481">
+          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1963#1964#0" expanded="true" />

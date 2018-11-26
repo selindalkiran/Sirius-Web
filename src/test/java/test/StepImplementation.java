@@ -17,6 +17,7 @@ public class StepImplementation extends BaseTest {
     public void before(){
         PropertyConfigurator.configure("properties/log4j.properties");
         setUp();
+
         base = new GaugeBase(getDriver());
     }
 
