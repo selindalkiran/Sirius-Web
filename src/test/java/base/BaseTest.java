@@ -3,6 +3,7 @@ package base;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import utils.Browser;
@@ -32,7 +33,10 @@ public class BaseTest {
         else{
             capabilities.setCapability("key", key);
             try {
-                setDriver(new RemoteWebDriver(new URL("http://hub.testinium.io/wd/hub"), capabilities));
+                setDriver(new RemoteWebDriver(new URL("http://127.0.0.1/wd/hub"), capabilities));
+                capabilities.setCapability(CapabilityType.TAKES_SCREENSHOT, true);
+                capabilities.setCapability("recordsVideo", true);
+                capabilities.setCapability("screenResolution", "SXGA");
             } catch (MalformedURLException e) {
                 log.error(e.getMessage());
             }
