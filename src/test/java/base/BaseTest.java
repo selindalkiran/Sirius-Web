@@ -3,6 +3,7 @@ package base;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -20,18 +21,31 @@ public class BaseTest {
     protected static Browser browser = new Browser();
 
     public void setUp(){
-
-
+        DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         PropertyConfigurator.configure("properties/log4j.properties");
         log.info("Settings Installation Start");
 
-        String KEY = "selidalk:b15114635d227239a56cf3934f10e075";
+        String key = null;
+        if (StringUtils.isNotEmpty(key)) { //TESTINIUM'DA CALISMASI ICIN
+            capabilities.setCapability("key", key);
+            try {
+                capabilities.setCapability("takesScreenshot", true);
+                capabilities.setPlatform(Platform.WIN10);
+                setDriver(new RemoteWebDriver(new URL("http://hub.testinium.io/wd/hub"), capabilities));
+            } catch (MalformedURLException e) {
+                log.error(e.getMessage());
+            }
+        } else { // LOCAL'DE CALISMASI ICIN
+            browser.createLocalDriver();
+        }
 
+   /**     PropertyConfigurator.configure("properties/log4j.properties");
+        log.info("Settings Installation Start");
+        String KEY = "selidalk:b15114635d227239a56cf3934f10e075";
         if(StringUtils.isEmpty(System.getenv("key"))){
             browser.createLocalDriver();
         }
         else{
-
             try {
                 DesiredCapabilities capabilities = new DesiredCapabilities();
                 capabilities.setCapability("key", KEY);
@@ -47,7 +61,7 @@ public class BaseTest {
             } catch (MalformedURLException e) {
                 log.error(e.getMessage());
             }
-        }
+        } **/
     }
 
 
