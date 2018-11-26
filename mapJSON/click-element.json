@@ -28,5 +28,8 @@
   },
   "FOTO SECIMI":{
     "cssSelector":"#__layout > div > div > div > section > section > div.b-tabs > section > div:nth-child(4) > div > div.b-table > div.table-wrapper > table > tbody > tr:nth-child(1) > td:nth-child(4) > span > label > span.check"
+  },
+  "LOGIN":{
+    "cssSelector":"body > header > nav > div > div > ul:nth-child(3) > li:nth-child(1) > a"
   }
 }

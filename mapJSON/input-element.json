@@ -31,5 +31,11 @@
   },
   "KIMLIK NO":{
     "cssSelector":"#__layout > div > div > div > section > section > div.b-tabs > section > div:nth-child(1) > div > div:nth-child(6) > div > input"
+  },
+  "PHONE_NUMBER":{
+    "id":"login_phoneNumber"
+  },
+  "PASSWORD":{
+    "id":"login_password"
   }
 }

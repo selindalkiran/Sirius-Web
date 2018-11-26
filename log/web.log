@@ -12,3 +12,42 @@
 2018-11-26 13:07:43 INFO  Mapper:55 - ********** Map:{"cssSelector":"#__layout > div > div > div > section > section > div.b-tabs > section > div:nth-child(1) > div > div:nth-child(1) > div > input"}
 2018-11-26 13:07:43 INFO  Mapper:71 - BY GENERATE :cssSelector-"#__layout > div > div > div > section > section > div.b-tabs > section > div:nth-child(1) > div > div:nth-child(1) > div > input"
 2018-11-26 13:07:43 INFO  Mapper:74 - BY + By.cssSelector: #__layout > div > div > div > section > section > div.b-tabs > section > div:nth-child(1) > div > div:nth-child(1) > div > input
+2018-11-26 14:22:15 INFO  BaseTest:32 - Settings Installation Start
+2018-11-26 14:22:20 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-11-26 14:22:20 INFO  Mapper:36 - EVENT ACTIVITY TYPE :input-element
+2018-11-26 14:22:20 INFO  Mapper:55 - ********** Map:{"cssSelector":"#__layout > div > div > div > section > section > div.b-tabs > section > div:nth-child(1) > div > div:nth-child(1) > div > input"}
+2018-11-26 14:22:20 INFO  Mapper:71 - BY GENERATE :cssSelector-"#__layout > div > div > div > section > section > div.b-tabs > section > div:nth-child(1) > div > div:nth-child(1) > div > input"
+2018-11-26 14:22:20 INFO  Mapper:74 - BY + By.cssSelector: #__layout > div > div > div > section > section > div.b-tabs > section > div:nth-child(1) > div > div:nth-child(1) > div > input
+2018-11-26 14:40:02 INFO  BaseTest:32 - Settings Installation Start
+2018-11-26 14:40:09 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-11-26 14:40:09 INFO  Mapper:36 - EVENT ACTIVITY TYPE :click-element
+2018-11-26 14:40:09 INFO  Mapper:55 - ********** Map:{"cssSelector":"body > header > nav > div > div > ul:nth-child(3) > li:nth-child(1) > a"}
+2018-11-26 14:40:09 INFO  Mapper:71 - BY GENERATE :cssSelector-"body > header > nav > div > div > ul:nth-child(3) > li:nth-child(1) > a"
+2018-11-26 14:40:09 INFO  Mapper:74 - BY + By.cssSelector: body > header > nav > div > div > ul:nth-child(3) > li:nth-child(1) > a
+2018-11-26 14:40:09 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-11-26 14:40:09 INFO  Mapper:36 - EVENT ACTIVITY TYPE :click-element
+2018-11-26 14:40:09 INFO  Mapper:55 - ********** Map:{"cssSelector":"body > header > nav > div > div > ul:nth-child(3) > li:nth-child(1) > a"}
+2018-11-26 14:40:09 INFO  Mapper:71 - BY GENERATE :cssSelector-"body > header > nav > div > div > ul:nth-child(3) > li:nth-child(1) > a"
+2018-11-26 14:40:09 INFO  Mapper:74 - BY + By.cssSelector: body > header > nav > div > div > ul:nth-child(3) > li:nth-child(1) > a
+2018-11-26 14:40:14 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-11-26 14:40:14 INFO  Mapper:36 - EVENT ACTIVITY TYPE :input-element
+2018-11-26 14:40:14 INFO  Mapper:55 - ********** Map:{"id":"login_phoneNumber"}
+2018-11-26 14:40:14 INFO  Mapper:71 - BY GENERATE :id-"login_phoneNumber"
+2018-11-26 14:40:14 INFO  Mapper:74 - BY + By.id: login_phoneNumber
+2018-11-26 14:40:14 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-11-26 14:40:14 INFO  Mapper:36 - EVENT ACTIVITY TYPE :input-element
+2018-11-26 14:40:14 INFO  Mapper:55 - ********** Map:{"id":"login_phoneNumber"}
+2018-11-26 14:40:14 INFO  Mapper:71 - BY GENERATE :id-"login_phoneNumber"
+2018-11-26 14:40:14 INFO  Mapper:74 - BY + By.id: login_phoneNumber
+2018-11-26 14:40:14 INFO  GaugeBase:618 - Element Send Keys : 5076308475-[[ChromeDriver: chrome on MAC (15b6108082a97fa807702c437b2a9fb9)] -> id: login_phoneNumber]
+2018-11-26 14:40:14 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-11-26 14:40:14 INFO  Mapper:36 - EVENT ACTIVITY TYPE :input-element
+2018-11-26 14:40:14 INFO  Mapper:55 - ********** Map:{"id":"login_password"}
+2018-11-26 14:40:14 INFO  Mapper:71 - BY GENERATE :id-"login_password"
+2018-11-26 14:40:14 INFO  Mapper:74 - BY + By.id: login_password
+2018-11-26 14:40:14 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-11-26 14:40:14 INFO  Mapper:36 - EVENT ACTIVITY TYPE :input-element
+2018-11-26 14:40:14 INFO  Mapper:55 - ********** Map:{"id":"login_password"}
+2018-11-26 14:40:14 INFO  Mapper:71 - BY GENERATE :id-"login_password"
+2018-11-26 14:40:14 INFO  Mapper:74 - BY + By.id: login_password
+2018-11-26 14:40:14 INFO  GaugeBase:618 - Element Send Keys : 1234567890-[[ChromeDriver: chrome on MAC (15b6108082a97fa807702c437b2a9fb9)] -> id: login_password]
