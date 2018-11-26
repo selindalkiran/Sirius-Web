@@ -16,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="348">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1436#1437#0" expanded="true" />
@@ -30,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Browser.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Browser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/utils/Browser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            <state relative-caret-position="107">
+              <caret line="16" column="68" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,8 +124,8 @@
         <option value="$PROJECT_DIR$/src/test/java/base/BasePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/WaitingActions.java" />
         <option value="$PROJECT_DIR$/src/test/java/base/GaugeBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/base/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/Browser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/base/BaseTest.java" />
       </list>
     </option>
   </component>
@@ -757,24 +757,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/Browser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="107">
+          <caret line="16" column="68" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1436#1437#0" expanded="true" />
-            <element signature="e#1476#1477#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/Browser.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        <state relative-caret-position="348">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1436#1437#0" expanded="true" />
+            <element signature="e#1476#1477#0" expanded="true" />
           </folding>
         </state>
       </provider>
