@@ -1,5 +1,5 @@
 {
-  "LOGIN INFO":{
-    "className":"loginUserInfo"
+  "HATA":{
+    "cssSelector":"#loginForm > div.inputField.error > div.errorMessage > div"
   }
 }

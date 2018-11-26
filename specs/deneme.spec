@@ -7,7 +7,10 @@ denemeSirius
 -------------
 Tags:deneme
 
-* "http://68.183.66.245/" url sayfasina gidilir
-* "LOGIN" butonuna tıklanır
-* "PHONE_NUMBER" alanına "5076308475" metni yazılır
-* "PASSWORD" alanına "1234567890" metni yazılır
+* "https://www.n11.com/" url sayfasina gidilir
+* "POPUP_KAPAT" butonuna tıklanır
+* "GIRIS_YAP" butonuna tıklanır
+* "EMAIL" alanına "selidalk@gmail.com" metni yazılır
+* "SIFRE" alanına "1234567890" metni yazılır
+* "GIRIS_BUTONU" butonuna tıklanır
+* "HATA" elementinden gelen text "E-posta adresiniz veya şifreniz hatalı" değerini içerir
