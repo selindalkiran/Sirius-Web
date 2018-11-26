@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a9d157b-1aa7-48aa-aa9a-4d5e81359992" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/log/web.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/web.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,8 +18,8 @@
       <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="33" column="11" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+            <state relative-caret-position="221">
+              <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1963#1964#0" expanded="true" />
@@ -386,6 +386,12 @@
       <configuration name="denemeSirius" configurationId="executeSpecs" />
     </history-entry>
     <history-entry file="denemeSirius - 2018.11.22 at 14h 00m 18s.xml">
+      <configuration name="denemeSirius" configurationId="executeSpecs" />
+    </history-entry>
+    <history-entry file="denemeSirius - 2018.11.26 at 11h 10m 28s.xml">
+      <configuration name="denemeSirius" configurationId="executeSpecs" />
+    </history-entry>
+    <history-entry file="denemeSirius - 2018.11.26 at 11h 12m 47s.xml">
       <configuration name="denemeSirius" configurationId="executeSpecs" />
     </history-entry>
   </component>
@@ -758,13 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/specs/deneme.spec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utils/Browser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="515">
@@ -775,10 +774,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/specs/deneme.spec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="33" column="11" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+        <state relative-caret-position="221">
+          <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1963#1964#0" expanded="true" />

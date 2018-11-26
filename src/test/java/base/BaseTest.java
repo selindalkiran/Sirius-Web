@@ -27,7 +27,7 @@ public class BaseTest {
 
     public void setUp(){
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
-        capabilities.setCapability("key", System.getProperty("key"));
+        capabilities.setCapability("key", KEY);
         PropertyConfigurator.configure("properties/log4j.properties");
         log.info("Settings Installation Start");
         if (StringUtils.isEmpty(System.getenv("key"))){
