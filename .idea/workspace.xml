@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a9d157b-1aa7-48aa-aa9a-4d5e81359992" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/web.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/web.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapJSON/click-element.json" beforeDir="false" afterPath="$PROJECT_DIR$/mapJSON/click-element.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapJSON/input-element.json" beforeDir="false" afterPath="$PROJECT_DIR$/mapJSON/input-element.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/specs/deneme.spec" beforeDir="false" afterPath="$PROJECT_DIR$/specs/deneme.spec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BasePageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BasePageUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/GaugeBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/GaugeBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/StepImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/StepImplementation.java" afterDir="false" />
-    </list>
+    <list default="true" id="4a9d157b-1aa7-48aa-aa9a-4d5e81359992" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deneme.spec" pinned="false" current-in-tab="false">
+      <file leaf-file-name="deneme.spec" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/specs/deneme.spec">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -55,7 +45,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StepImplementation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StepImplementation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/StepImplementation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="351">
@@ -420,9 +410,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="denemeSirius - 2018.11.21 at 14h 53m 36s.xml">
-      <configuration name="denemeSirius" configurationId="executeSpecs" />
-    </history-entry>
     <history-entry file="denemeSirius - 2018.11.22 at 13h 56m 02s.xml">
       <configuration name="denemeSirius" configurationId="executeSpecs" />
     </history-entry>
@@ -450,6 +437,9 @@
     <history-entry file="denemeSirius - 2018.11.26 at 14h 22m 51s.xml">
       <configuration name="denemeSirius" configurationId="executeSpecs" />
     </history-entry>
+    <history-entry file="denemeSirius - 2018.11.26 at 14h 40m 16s.xml">
+      <configuration name="denemeSirius" configurationId="executeSpecs" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -468,7 +458,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49919224" weight="0.32965517" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25444266" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -1074,13 +1064,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mapJSON/click-element.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="90" selection-start-line="32" selection-start-column="90" selection-end-line="32" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mapJSON/input-element.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -1088,17 +1071,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/specs/deneme.spec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/StepImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapJSON/click-element.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="90" selection-start-line="32" selection-start-column="90" selection-end-line="32" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/screenshot3686367227659440693.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specs/deneme.spec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
         </state>
       </provider>
     </entry>
