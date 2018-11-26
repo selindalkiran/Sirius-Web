@@ -30,7 +30,7 @@ public class BaseTest {
         capabilities.setCapability("key", System.getProperty("key"));
         PropertyConfigurator.configure("properties/log4j.properties");
         log.info("Settings Installation Start");
-        if (StringUtils.isEmpty(System.getProperty("key"))){
+        if (StringUtils.isEmpty(System.getProperty(KEY))){
             browser.createLocalDriver();
         }
         else {
