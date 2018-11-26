@@ -20,24 +20,25 @@ public class BaseTest {
     //protected static Configuration config = Configuration.getInstance();
     protected static Browser browser = new Browser();
 
+    public static final String USERNAME = "selidalk";
+    public static final String ACCESS_KEY = "b15114635d227239a56cf3934f10e075";
+    public static final String KEY = USERNAME + ":" + ACCESS_KEY;
+
     public void setUp(){
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         PropertyConfigurator.configure("properties/log4j.properties");
         log.info("Settings Installation Start");
-
-        String key = null;
-        if (StringUtils.isNotEmpty(key)) { //TESTINIUM'DA CALISMASI ICIN
-            capabilities.setCapability("key", key);
-            try {
-                capabilities.setCapability("takesScreenshot", true);
-                capabilities.setPlatform(Platform.WIN10);
-                setDriver(new RemoteWebDriver(new URL("http://hub.testinium.io/wd/hub"), capabilities));
-            } catch (MalformedURLException e) {
-                log.error(e.getMessage());
-            }
-        } else { // LOCAL'DE CALISMASI ICIN
-            browser.createLocalDriver();
+        
+        capabilities.setCapability("key", KEY);
+        try {
+            capabilities.setCapability("takesScreenshot", true);
+            capabilities.setPlatform(Platform.WIN10);
+            setDriver(new RemoteWebDriver(new URL("http://hub.testinium.io/wd/hub"), capabilities));
+        } catch (MalformedURLException e) {
+            log.error(e.getMessage());
         }
+
+
 
    /**     PropertyConfigurator.configure("properties/log4j.properties");
         log.info("Settings Installation Start");
