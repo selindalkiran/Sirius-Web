@@ -14,4 +14,4 @@ Tags:deneme
 * "SIFRE" alanına "1234567890" metni yazılır
 * "GIRIS_BUTONU" butonuna tıklanır
 * "HATA" elementinden gelen text "E-posta adresiniz veya şifreniz hatalı" değerini içerir
-* "button" butonuna tıklanır
+g
