@@ -1,5 +1,8 @@
 {
   "HATA":{
     "cssSelector":"#loginForm > div.inputField.error > div.errorMessage > div"
+  },
+  "TESTINIUM":{
+      "cssSelector":"body > header > nav > div > a > img"
   }
 }
