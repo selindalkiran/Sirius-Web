@@ -198,3 +198,61 @@
 2018-11-26 21:44:45 INFO  Mapper:55 - ********** Map:{"cssSelector":"#loginForm > div.inputField.error > div.errorMessage > div"}
 2018-11-26 21:44:45 INFO  Mapper:71 - BY GENERATE :cssSelector-"#loginForm > div.inputField.error > div.errorMessage > div"
 2018-11-26 21:44:45 INFO  Mapper:74 - BY + By.cssSelector: #loginForm > div.inputField.error > div.errorMessage > div
+2018-11-29 11:39:28 INFO  BaseTest:32 - Settings Installation Start
+2018-11-29 11:39:42 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-11-29 11:39:42 INFO  Mapper:36 - EVENT ACTIVITY TYPE :click-element
+2018-11-29 11:39:42 INFO  Mapper:55 - ********** Map:{"cssSelector":"#header > div > div > div.hMedMenu > div.customMenu > div.myLocationHolder.customMenuItem > div.myLocation-headsUp > div > span.myLocation-close-info"}
+2018-11-29 11:39:42 INFO  Mapper:71 - BY GENERATE :cssSelector-"#header > div > div > div.hMedMenu > div.customMenu > div.myLocationHolder.customMenuItem > div.myLocation-headsUp > div > span.myLocation-close-info"
+2018-11-29 11:39:42 INFO  Mapper:74 - BY + By.cssSelector: #header > div > div > div.hMedMenu > div.customMenu > div.myLocationHolder.customMenuItem > div.myLocation-headsUp > div > span.myLocation-close-info
+2018-11-29 11:39:42 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-11-29 11:39:42 INFO  Mapper:36 - EVENT ACTIVITY TYPE :click-element
+2018-11-29 11:39:42 INFO  Mapper:55 - ********** Map:{"cssSelector":"#header > div > div > div.hMedMenu > div.customMenu > div.myLocationHolder.customMenuItem > div.myLocation-headsUp > div > span.myLocation-close-info"}
+2018-11-29 11:39:42 INFO  Mapper:71 - BY GENERATE :cssSelector-"#header > div > div > div.hMedMenu > div.customMenu > div.myLocationHolder.customMenuItem > div.myLocation-headsUp > div > span.myLocation-close-info"
+2018-11-29 11:39:42 INFO  Mapper:74 - BY + By.cssSelector: #header > div > div > div.hMedMenu > div.customMenu > div.myLocationHolder.customMenuItem > div.myLocation-headsUp > div > span.myLocation-close-info
+2018-11-29 11:39:47 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-11-29 11:39:47 INFO  Mapper:36 - EVENT ACTIVITY TYPE :click-element
+2018-11-29 11:39:47 INFO  Mapper:55 - ********** Map:{"cssSelector":"#header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn"}
+2018-11-29 11:39:47 INFO  Mapper:71 - BY GENERATE :cssSelector-"#header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn"
+2018-11-29 11:39:47 INFO  Mapper:74 - BY + By.cssSelector: #header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn
+2018-11-29 11:39:47 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-11-29 11:39:47 INFO  Mapper:36 - EVENT ACTIVITY TYPE :click-element
+2018-11-29 11:39:47 INFO  Mapper:55 - ********** Map:{"cssSelector":"#header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn"}
+2018-11-29 11:39:47 INFO  Mapper:71 - BY GENERATE :cssSelector-"#header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn"
+2018-11-29 11:39:47 INFO  Mapper:74 - BY + By.cssSelector: #header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn
+2018-11-29 11:39:52 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-11-29 11:39:52 INFO  Mapper:36 - EVENT ACTIVITY TYPE :input-element
+2018-11-29 11:39:52 INFO  Mapper:55 - ********** Map:{"id":"email"}
+2018-11-29 11:39:52 INFO  Mapper:71 - BY GENERATE :id-"email"
+2018-11-29 11:39:52 INFO  Mapper:74 - BY + By.id: email
+2018-11-29 11:39:52 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-11-29 11:39:52 INFO  Mapper:36 - EVENT ACTIVITY TYPE :input-element
+2018-11-29 11:39:52 INFO  Mapper:55 - ********** Map:{"id":"email"}
+2018-11-29 11:39:52 INFO  Mapper:71 - BY GENERATE :id-"email"
+2018-11-29 11:39:52 INFO  Mapper:74 - BY + By.id: email
+2018-11-29 11:39:52 INFO  GaugeBase:618 - Element Send Keys : selidalk@gmail.com-[[ChromeDriver: chrome on MAC (c0495de74328d4798699cae81183b1f4)] -> id: email]
+2018-11-29 11:39:53 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-11-29 11:39:53 INFO  Mapper:36 - EVENT ACTIVITY TYPE :input-element
+2018-11-29 11:39:53 INFO  Mapper:55 - ********** Map:{"id":"password"}
+2018-11-29 11:39:53 INFO  Mapper:71 - BY GENERATE :id-"password"
+2018-11-29 11:39:53 INFO  Mapper:74 - BY + By.id: password
+2018-11-29 11:39:53 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-11-29 11:39:53 INFO  Mapper:36 - EVENT ACTIVITY TYPE :input-element
+2018-11-29 11:39:53 INFO  Mapper:55 - ********** Map:{"id":"password"}
+2018-11-29 11:39:53 INFO  Mapper:71 - BY GENERATE :id-"password"
+2018-11-29 11:39:53 INFO  Mapper:74 - BY + By.id: password
+2018-11-29 11:39:53 INFO  GaugeBase:618 - Element Send Keys : 1234567890-[[ChromeDriver: chrome on MAC (c0495de74328d4798699cae81183b1f4)] -> id: password]
+2018-11-29 11:39:53 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-11-29 11:39:53 INFO  Mapper:36 - EVENT ACTIVITY TYPE :click-element
+2018-11-29 11:39:53 INFO  Mapper:55 - ********** Map:{"id":"loginButton"}
+2018-11-29 11:39:53 INFO  Mapper:71 - BY GENERATE :id-"loginButton"
+2018-11-29 11:39:53 INFO  Mapper:74 - BY + By.id: loginButton
+2018-11-29 11:39:53 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-11-29 11:39:53 INFO  Mapper:36 - EVENT ACTIVITY TYPE :click-element
+2018-11-29 11:39:53 INFO  Mapper:55 - ********** Map:{"id":"loginButton"}
+2018-11-29 11:39:53 INFO  Mapper:71 - BY GENERATE :id-"loginButton"
+2018-11-29 11:39:53 INFO  Mapper:74 - BY + By.id: loginButton
+2018-11-29 11:39:58 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-11-29 11:39:58 INFO  Mapper:36 - EVENT ACTIVITY TYPE :is-element
+2018-11-29 11:39:58 INFO  Mapper:55 - ********** Map:{"cssSelector":"#loginForm > div.inputField.error > div.errorMessage > div"}
+2018-11-29 11:39:58 INFO  Mapper:71 - BY GENERATE :cssSelector-"#loginForm > div.inputField.error > div.errorMessage > div"
+2018-11-29 11:39:58 INFO  Mapper:74 - BY + By.cssSelector: #loginForm > div.inputField.error > div.errorMessage > div
