@@ -30,18 +30,17 @@ public class BaseTest {
         capabilities.setCapability("key", KEY);
         PropertyConfigurator.configure("properties/log4j.properties");
         log.info("Settings Installation Start");
-        if (StringUtils.isEmpty(System.getenv("key"))){
-            browser.createLocalDriver();
-        }
-        else {
+        if (StringUtils.isNotEmpty(System.getenv("key"))){
+            
             try {
                 capabilities.setCapability("takesScreenshot", true);
-                log.info("takesScreenshot");
-                isTestinium = true;
+                capabilities.setPlatform(Platform.MAC);
                 setDriver(new RemoteWebDriver(new URL("http://hub.testinium.io/wd/hub"), capabilities));
             } catch (MalformedURLException e) {
                 log.error(e.getMessage());
             }
+        } else { // LOCAL'DE CALISMASI ICIN
+            browser.createLocalDriver();
 
         }
 
