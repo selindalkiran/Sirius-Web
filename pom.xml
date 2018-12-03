@@ -14,16 +14,7 @@
   <properties>
     <gauge.plugin.version>1.3.3</gauge.plugin.version>
     <java.version>1.8</java.version>
-    <!-- CONFIG -->
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <waitTime>100</waitTime>
-    <implicitlyWait>5</implicitlyWait>
-    <browser.name>DEFAULT</browser.name>
-    <!-- <browser.name>IOS</browser.name> -->
-    <browser.version>ANY</browser.version>
-    <platform>MAC</platform>
-    <baseUrl>https://mylifebox.com</baseUrl>
-    <!-- CONFIG -->
+    
 
     <!-- VERSIONS -->
     <junit.version>4.12</junit.version>
