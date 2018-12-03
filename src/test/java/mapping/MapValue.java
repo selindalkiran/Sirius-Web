@@ -2,17 +2,17 @@ package mapping;
 
 public enum MapValue {
 
-    ID("id"), CLASSNAME("className"), LINKTEXT("linkText"), CSSSELECTOR("cssSelector"), XPATH("xpath"), CONTAINS(
-            "contains");
-    private final String text;
+	ID("id"), CLASSNAME("className"), LINKTEXT("linkText"), CSSSELECTOR("cssSelector"), XPATH("xpath"), CONTAINS(
+			"contains");
 
-    public String getText() {
+	private final String text;
 
-        return text;
-    }
+	public String getText() {
+		return text;
+	}
 
-    MapValue(String text) {
+	MapValue(String text) {
+		this.text = text;
+	}
 
-        this.text = text;
-    }
 }

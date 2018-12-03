@@ -256,3 +256,92 @@
 2018-11-29 11:39:58 INFO  Mapper:55 - ********** Map:{"cssSelector":"#loginForm > div.inputField.error > div.errorMessage > div"}
 2018-11-29 11:39:58 INFO  Mapper:71 - BY GENERATE :cssSelector-"#loginForm > div.inputField.error > div.errorMessage > div"
 2018-11-29 11:39:58 INFO  Mapper:74 - BY + By.cssSelector: #loginForm > div.inputField.error > div.errorMessage > div
+2018-12-03 11:27:31 INFO  BaseTest:33 - Settings Installation Start
+2018-12-03 11:27:31 INFO  BaseTest:55 - DEFAULT
+2018-12-03 11:28:07 INFO  BaseTest:33 - Settings Installation Start
+2018-12-03 11:28:07 INFO  BaseTest:55 - DEFAULT
+2018-12-03 11:30:47 INFO  BaseTest:33 - Settings Installation Start
+2018-12-03 11:30:47 INFO  BaseTest:55 - DEFAULT
+2018-12-03 11:32:32 INFO  BaseTest:32 - Settings Installation Start
+2018-12-03 11:32:44 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-12-03 11:32:44 INFO  Mapper:36 - EVENT ACTIVITY TYPE :click-element
+2018-12-03 11:32:44 INFO  Mapper:55 - ********** Map:{"cssSelector":"#header > div > div > div.hMedMenu > div.customMenu > div.myLocationHolder.customMenuItem > div.myLocation-headsUp > div > span.myLocation-close-info"}
+2018-12-03 11:32:44 INFO  Mapper:71 - BY GENERATE :cssSelector-"#header > div > div > div.hMedMenu > div.customMenu > div.myLocationHolder.customMenuItem > div.myLocation-headsUp > div > span.myLocation-close-info"
+2018-12-03 11:32:44 INFO  Mapper:74 - BY + By.cssSelector: #header > div > div > div.hMedMenu > div.customMenu > div.myLocationHolder.customMenuItem > div.myLocation-headsUp > div > span.myLocation-close-info
+2018-12-03 11:32:44 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-12-03 11:32:44 INFO  Mapper:36 - EVENT ACTIVITY TYPE :click-element
+2018-12-03 11:32:44 INFO  Mapper:55 - ********** Map:{"cssSelector":"#header > div > div > div.hMedMenu > div.customMenu > div.myLocationHolder.customMenuItem > div.myLocation-headsUp > div > span.myLocation-close-info"}
+2018-12-03 11:32:44 INFO  Mapper:71 - BY GENERATE :cssSelector-"#header > div > div > div.hMedMenu > div.customMenu > div.myLocationHolder.customMenuItem > div.myLocation-headsUp > div > span.myLocation-close-info"
+2018-12-03 11:32:44 INFO  Mapper:74 - BY + By.cssSelector: #header > div > div > div.hMedMenu > div.customMenu > div.myLocationHolder.customMenuItem > div.myLocation-headsUp > div > span.myLocation-close-info
+2018-12-03 11:32:49 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-12-03 11:32:49 INFO  Mapper:36 - EVENT ACTIVITY TYPE :click-element
+2018-12-03 11:32:49 INFO  Mapper:55 - ********** Map:{"cssSelector":"#header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn"}
+2018-12-03 11:32:49 INFO  Mapper:71 - BY GENERATE :cssSelector-"#header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn"
+2018-12-03 11:32:49 INFO  Mapper:74 - BY + By.cssSelector: #header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn
+2018-12-03 11:32:49 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-12-03 11:32:49 INFO  Mapper:36 - EVENT ACTIVITY TYPE :click-element
+2018-12-03 11:32:49 INFO  Mapper:55 - ********** Map:{"cssSelector":"#header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn"}
+2018-12-03 11:32:49 INFO  Mapper:71 - BY GENERATE :cssSelector-"#header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn"
+2018-12-03 11:32:49 INFO  Mapper:74 - BY + By.cssSelector: #header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn
+2018-12-03 11:32:55 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-12-03 11:32:55 INFO  Mapper:36 - EVENT ACTIVITY TYPE :input-element
+2018-12-03 11:32:55 INFO  Mapper:55 - ********** Map:{"id":"email"}
+2018-12-03 11:32:55 INFO  Mapper:71 - BY GENERATE :id-"email"
+2018-12-03 11:32:55 INFO  Mapper:74 - BY + By.id: email
+2018-12-03 11:32:55 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-12-03 11:32:55 INFO  Mapper:36 - EVENT ACTIVITY TYPE :input-element
+2018-12-03 11:32:55 INFO  Mapper:55 - ********** Map:{"id":"email"}
+2018-12-03 11:32:55 INFO  Mapper:71 - BY GENERATE :id-"email"
+2018-12-03 11:32:55 INFO  Mapper:74 - BY + By.id: email
+2018-12-03 11:32:55 INFO  GaugeBase:618 - Element Send Keys : selidalk@gmail.com-[[ChromeDriver: chrome on MAC (9af3900d3eb4e3595de7064c374b0147)] -> id: email]
+2018-12-03 11:32:56 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-12-03 11:32:56 INFO  Mapper:36 - EVENT ACTIVITY TYPE :input-element
+2018-12-03 11:32:56 INFO  Mapper:55 - ********** Map:{"id":"password"}
+2018-12-03 11:32:56 INFO  Mapper:71 - BY GENERATE :id-"password"
+2018-12-03 11:32:56 INFO  Mapper:74 - BY + By.id: password
+2018-12-03 11:32:56 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-12-03 11:32:56 INFO  Mapper:36 - EVENT ACTIVITY TYPE :input-element
+2018-12-03 11:32:56 INFO  Mapper:55 - ********** Map:{"id":"password"}
+2018-12-03 11:32:56 INFO  Mapper:71 - BY GENERATE :id-"password"
+2018-12-03 11:32:56 INFO  Mapper:74 - BY + By.id: password
+2018-12-03 11:32:56 INFO  GaugeBase:618 - Element Send Keys : 1234567890-[[ChromeDriver: chrome on MAC (9af3900d3eb4e3595de7064c374b0147)] -> id: password]
+2018-12-03 11:32:57 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-12-03 11:32:57 INFO  Mapper:36 - EVENT ACTIVITY TYPE :click-element
+2018-12-03 11:32:57 INFO  Mapper:55 - ********** Map:{"id":"loginButton"}
+2018-12-03 11:32:57 INFO  Mapper:71 - BY GENERATE :id-"loginButton"
+2018-12-03 11:32:57 INFO  Mapper:74 - BY + By.id: loginButton
+2018-12-03 11:32:57 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-12-03 11:32:57 INFO  Mapper:36 - EVENT ACTIVITY TYPE :click-element
+2018-12-03 11:32:57 INFO  Mapper:55 - ********** Map:{"id":"loginButton"}
+2018-12-03 11:32:57 INFO  Mapper:71 - BY GENERATE :id-"loginButton"
+2018-12-03 11:32:57 INFO  Mapper:74 - BY + By.id: loginButton
+2018-12-03 11:33:02 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-12-03 11:33:02 INFO  Mapper:36 - EVENT ACTIVITY TYPE :is-element
+2018-12-03 11:33:02 INFO  Mapper:55 - ********** Map:{"cssSelector":"#loginForm > div.inputField.error > div.errorMessage > div"}
+2018-12-03 11:33:02 INFO  Mapper:71 - BY GENERATE :cssSelector-"#loginForm > div.inputField.error > div.errorMessage > div"
+2018-12-03 11:33:02 INFO  Mapper:74 - BY + By.cssSelector: #loginForm > div.inputField.error > div.errorMessage > div
+2018-12-03 14:29:50 INFO  BaseTest:32 - Settings Installation Start
+2018-12-03 14:30:01 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-12-03 14:30:01 INFO  Mapper:36 - EVENT ACTIVITY TYPE :click-element
+2018-12-03 14:30:01 INFO  Mapper:55 - ********** Map:{"cssSelector":"#header > div > div > div.hMedMenu > div.customMenu > div.myLocationHolder.customMenuItem > div.myLocation-headsUp > div > span.myLocation-close-info"}
+2018-12-03 14:30:01 INFO  Mapper:71 - BY GENERATE :cssSelector-"#header > div > div > div.hMedMenu > div.customMenu > div.myLocationHolder.customMenuItem > div.myLocation-headsUp > div > span.myLocation-close-info"
+2018-12-03 14:30:01 INFO  Mapper:74 - BY + By.cssSelector: #header > div > div > div.hMedMenu > div.customMenu > div.myLocationHolder.customMenuItem > div.myLocation-headsUp > div > span.myLocation-close-info
+2018-12-03 14:30:01 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-12-03 14:30:01 INFO  Mapper:36 - EVENT ACTIVITY TYPE :click-element
+2018-12-03 14:30:01 INFO  Mapper:55 - ********** Map:{"cssSelector":"#header > div > div > div.hMedMenu > div.customMenu > div.myLocationHolder.customMenuItem > div.myLocation-headsUp > div > span.myLocation-close-info"}
+2018-12-03 14:30:01 INFO  Mapper:71 - BY GENERATE :cssSelector-"#header > div > div > div.hMedMenu > div.customMenu > div.myLocationHolder.customMenuItem > div.myLocation-headsUp > div > span.myLocation-close-info"
+2018-12-03 14:30:01 INFO  Mapper:74 - BY + By.cssSelector: #header > div > div > div.hMedMenu > div.customMenu > div.myLocationHolder.customMenuItem > div.myLocation-headsUp > div > span.myLocation-close-info
+2018-12-03 14:30:06 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-12-03 14:30:06 INFO  Mapper:36 - EVENT ACTIVITY TYPE :click-element
+2018-12-03 14:30:06 INFO  Mapper:55 - ********** Map:{"cssSelector":"#header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn"}
+2018-12-03 14:30:06 INFO  Mapper:71 - BY GENERATE :cssSelector-"#header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn"
+2018-12-03 14:30:06 INFO  Mapper:74 - BY + By.cssSelector: #header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn
+2018-12-03 14:30:06 INFO  Mapper:34 - *********** BASE PATH :mapJSON/
+2018-12-03 14:30:06 INFO  Mapper:36 - EVENT ACTIVITY TYPE :click-element
+2018-12-03 14:30:06 INFO  Mapper:55 - ********** Map:{"cssSelector":"#header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn"}
+2018-12-03 14:30:06 INFO  Mapper:71 - BY GENERATE :cssSelector-"#header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn"
+2018-12-03 14:30:06 INFO  Mapper:74 - BY + By.cssSelector: #header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn
+2018-12-03 14:45:10 INFO  BaseTest:29 - Settings Installation Start
+2018-12-03 14:45:17 INFO  Mapper:38 - ******* BASE PATH :mapJSON/
+2018-12-03 14:45:17 INFO  Mapper:40 - EVENT ACTIVITY TYPE :click-element
+2018-12-03 14:45:17 ERROR Mapper:73 - ANASAYFA_UYARI KAPATis not found in JSON file

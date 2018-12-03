@@ -1,33 +1,40 @@
 package base;
 
-import com.gargoylesoftware.htmlunit.javascript.host.geo.Coordinates;
+
 import org.apache.commons.io.FilenameUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.interactions.internal.Coordinates;
+import org.openqa.selenium.internal.Locatable;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import utils.WaitingActions;
+import util.WaitingActions;
 
+import javax.security.auth.login.Configuration;
 import java.io.File;
+import java.text.ParseException;
+import java.text.RuleBasedCollator;
+import java.util.Date;
 import java.util.List;
-import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
-import static junit.framework.Assert.assertEquals;
-import static junit.framework.Assert.assertFalse;
-import static junit.framework.Assert.assertTrue;
-import static org.junit.Assert.fail;
+import static org.junit.Assert.*;
 
+/**
+ * Created by olcayekin on 16/06/2017.
+ */
 public class BasePageUtil {
+    protected Configuration config;
     protected WebDriver driver;
+    protected final Logger log = Logger.getLogger(getClass());
     protected WebDriverWait wait;
     protected WaitingActions wa;
-    protected final Logger log = Logger.getLogger(getClass());
 
     public BasePageUtil(WebDriver driver) {
+       // this.config = Configuration.getInstance();
         this.driver = driver;
         this.wait = new WebDriverWait(driver, 100);
         this.wa = new WaitingActions(this.driver);
@@ -42,7 +49,9 @@ public class BasePageUtil {
         return findElement(by, index).getAttribute("data-value");
     }
 
-
+    protected void addCookie(String name, String value, String domain, String path, Date expiry) {
+        driver.manage().addCookie(new Cookie(name, value, domain, path, expiry));
+    }
 
 
 
@@ -119,6 +128,7 @@ public class BasePageUtil {
     protected void waitAllRequest(){
         wa.pageLoadComplete();
         wa.ajaxComplete();
+        wa.jQueryComplete();
 
     }
 
@@ -227,8 +237,17 @@ public class BasePageUtil {
         }
     }
 
-
-
+    /**
+     * scrollTo WebElement
+     *
+     * @param by
+     * @param index
+     */
+    protected void scrollToElementC(By by, int... index) {
+        Coordinates coordinate = ((Locatable) findElement(by, index)).getCoordinates();
+        coordinate.onPage();
+        coordinate.inViewPort();
+    }
 
     /**
      * scrollTo WebElement scope location +x +y
@@ -447,10 +466,50 @@ public class BasePageUtil {
         return new Select(element);
     }
 
+    /**
+     * Select menu with text click.
+     *
+     * @param by
+     *            = id olması tercih edilir.
+     * @param value
+     *            = Görünen text'i
+     */
+    protected void selectOptionClick(By by, String value) {
+        selectOption(by).selectByVisibleText(value);
+    }
+    protected void selectOptionClick(WebElement element, String value) {
+        selectOption(element).selectByVisibleText(value);
+    }
 
+    /**
+     * Select menu list get.
+     *
+     * @param by
+     * @return
+     */
+    protected List<WebElement> selectOptionList(By by) {
+        return selectOption(by).getOptions();
+    }
 
+    /**
+     * Select menu first select get
+     *
+     * @param by
+     * @return
+     */
+    protected WebElement selectOptionFirstSelect(By by) {
+        return selectOption(by).getFirstSelectedOption();
+    }
 
-
+    /**
+     * Select menu get selected text
+     *
+     * @param by
+     * @return
+     */
+    protected String selectOptionSelectedText(By by) {
+        return selectOption(by).getFirstSelectedOption().getText();
+    }
 
     /**
      * Assertion Control(True)
@@ -580,7 +639,7 @@ public class BasePageUtil {
      * @param index
      */
     protected void clickElementJS(By by, int... index) {
-        getJSExecutor().executeScript("arguments[0].click();",driver.findElement(by));
+        getJSExecutor().executeScript("arguments[0].click();", findElement(by, index));
     }
 
     /**
@@ -605,20 +664,18 @@ public class BasePageUtil {
     protected void sendKeys(By by, String text, boolean pressEnter, int... index) {
         WebElement element = null;
         try {
-            element = findElement(by,index);
-
+            element = findElement(by, index);
         } catch (Exception e) {
             log.error("ERROR :", e);
             assertFail("Element Not Found :" + e.getMessage());
         }
         if (element == null) {
             nullElementException(by, index);
-        } else if (element.isDisplayed()) {
-
+        } else if (element.isEnabled()) {
+            untilElementClickable(element);
             log.info("Element Send Keys : " + text + "-" + element);
             element.clear();
             element.sendKeys(text);
-            element.sendKeys(Keys.TAB);
             if (pressEnter) {
                 element.sendKeys(Keys.ENTER);
             }
@@ -887,7 +944,23 @@ public class BasePageUtil {
                 + "arguments[0].dispatchEvent(evt);", element);
     }
 
-
+    /**
+     * Turkish Character Ranking
+     *
+     * @return
+     */
+    protected RuleBasedCollator getTurkishCollator() {
+        String turkish = " < '.' < 0 < 1 < 2 < 3 < 4 < 5 < 6 < 7 < 8 < 9 < a, A < b, B < c, C < ç, Ç < d, D < e, E < f, F"
+                + "< g, G < ğ, Ğ < h, H < ı, I < i, İ < j, J < k, K < l, L "
+                + "< m, M < n, N < o, O < ö, Ö < p, P < q, Q < r, R < s, S"
+                + "< ş, Ş < t, T < u, U < ü, Ü < v, V < w, W < x, X < y, Y < z, Z";
+        try {
+            return new RuleBasedCollator(turkish);
+        } catch (ParseException e) {
+            log.error("Does Not Exists Character", e);
+        }
+        return null;
+    }
 
     /**
      * Delete cookie
@@ -975,8 +1048,21 @@ public class BasePageUtil {
         });
     }
 
-
-
+    /**
+     * wait for web element present -Preferred Boolean
+     *
+     * @param by
+     * @param index
+     * @return
+     */
+    protected boolean waitForElementPresentB(final By by, final int... index) {
+        log.info("Expected Element :" + by + index);
+        wait.ignoring(StaleElementReferenceException.class);
+        return wait.until((ExpectedCondition<Boolean>) webDriver -> {
+            log.debug("Search Element :" + by);
+            return findElement(by, index) != null && findElement(by, index).isDisplayed();
+        });
+    }
     protected void waitForElementDissapear( By by, int timeOutInSeconds ) {
         log.info("Waiting Actions Process Dissapear");
         try {
@@ -1046,4 +1132,5 @@ public class BasePageUtil {
             return false;
         }
     }
+
 }

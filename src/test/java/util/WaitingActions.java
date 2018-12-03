@@ -1,9 +1,13 @@
-package utils;
+package util;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+/**
+ * Created by olcayekin on 16/06/2017.
+ */
 public class WaitingActions {
 
     public WebDriver waDriver;
@@ -59,9 +63,5 @@ public class WaitingActions {
         }
     }
 
-    public void waitAll(){
-        jQueryComplete();
-        pageLoadComplete();
-        ajaxComplete();
-    }
+
 }
