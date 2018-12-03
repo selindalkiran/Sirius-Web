@@ -28,8 +28,8 @@ public class BaseTest {
         PropertyConfigurator.configure("properties/log4j.properties");
         log.info("Settings Installation Start");
 
-        String key = null;
-        if (StringUtils.isNotEmpty(key)) { //TESTINIUM'DA CALISMASI ICIN
+        String key = "selidalk:b15114635d227239a56cf3934f10e075";
+        if (StringUtils.isNotEmpty(System.getenv("key"))) { //TESTINIUM'DA CALISMASI ICIN
             capabilities.setCapability("key", key);
             try {
                 capabilities.setCapability("takesScreenshot", true);
