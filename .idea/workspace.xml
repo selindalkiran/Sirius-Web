@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a9d157b-1aa7-48aa-aa9a-4d5e81359992" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/web.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/web.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BasePageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BasePageUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/GaugeBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/GaugeBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mapping/MapMethodType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mapping/MapMethodType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mapping/MapValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mapping/MapValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mapping/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mapping/Mapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/StepImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/StepImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Browser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/WaitingActions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/util/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/Browser.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,7 +52,7 @@
       <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="274">
               <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -83,11 +70,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Browser.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Browser.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/util/Browser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="331">
+              <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,7 +103,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainPage.spec" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainPage.spec" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/specs/MainPage.spec">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -173,13 +163,13 @@
         <option value="$PROJECT_DIR$/src/test/java/mapping/MapMethodType.java" />
         <option value="$PROJECT_DIR$/src/test/java/mapping/Mapper.java" />
         <option value="$PROJECT_DIR$/src/test/java/mapping/MapValue.java" />
-        <option value="$PROJECT_DIR$/src/test/java/util/Browser.java" />
         <option value="$PROJECT_DIR$/src/test/java/util/WaitingActions.java" />
         <option value="$PROJECT_DIR$/src/test/java/util/ContextPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/util/Configuration.java" />
         <option value="$PROJECT_DIR$/src/test/java/base/BasePageUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/base/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/StepImplementation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/util/Browser.java" />
       </list>
     </option>
   </component>
@@ -422,9 +412,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="denemeSirius - 2018.11.26 at 21h 40m 21s.xml">
-      <configuration name="denemeSirius" configurationId="executeSpecs" />
-    </history-entry>
     <history-entry file="denemeSirius - 2018.11.26 at 21h 44m 46s.xml">
       <configuration name="denemeSirius" configurationId="executeSpecs" />
     </history-entry>
@@ -451,6 +438,9 @@
     </history-entry>
     <history-entry file="denemeSirius - 2018.12.03 at 14h 30m 15s.xml">
       <configuration name="denemeSirius" configurationId="executeSpecs" />
+    </history-entry>
+    <history-entry file="AnaSayfa - 2018.12.03 at 14h 45m 19s.xml">
+      <configuration name="AnaSayfa" configurationId="executeSpecs" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -750,13 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/util/Browser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/util/Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -791,16 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/StepImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -826,6 +799,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/util/Browser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

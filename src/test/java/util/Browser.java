@@ -24,7 +24,7 @@ public class Browser {
     public void setBrowser( String browserName, String browserVersion, String url, int implicitlyWait )
             throws MalformedURLException {
 
-        String key = "canberk:d772780dcc1834061a37552031e6453d";
+        String key = "selidalk:b15114635d227239a56cf3934f10e075";
         URL hub = new URL("http://hub.testinium.io/wd/hub");
         if (StringUtils.isNotEmpty(key)) {
             logger.info("Testinium ");
