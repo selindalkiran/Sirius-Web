@@ -9,5 +9,5 @@ To execute this specification, run
 
 
 ## Vowel counts in multiple word
-* "https://www.linkedin.com" url sayfasina gidilir
+* "https://www.linkedin.com" adresine gidilir
 * "AD" alanına "Ahmet" metni yazılır
