@@ -349,3 +349,8 @@
 2018-12-04 11:34:29 INFO  Mapper:38 - ******* BASE PATH :mapJSON/
 2018-12-04 11:34:29 INFO  Mapper:40 - EVENT ACTIVITY TYPE :click-element
 2018-12-04 11:34:29 ERROR Mapper:73 - ANASAYFA_UYARI KAPATis not found in JSON file
+2018-12-07 10:58:45 INFO  BaseTest:30 - Settings Installation Start
+2018-12-07 10:58:50 INFO  BaseTest:47 - Ahmet
+2018-12-07 10:58:50 INFO  Mapper:38 - ******* BASE PATH :mapJSON/
+2018-12-07 10:58:50 INFO  Mapper:40 - EVENT ACTIVITY TYPE :input-element
+2018-12-07 10:58:50 ERROR Mapper:73 - ADis not found in JSON file

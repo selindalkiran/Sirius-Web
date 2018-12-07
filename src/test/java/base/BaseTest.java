@@ -22,24 +22,28 @@ public class BaseTest {
     protected static final Logger log = Logger.getLogger(BaseTest.class);
     //protected static Configuration config = Configuration.getInstance();
     protected static Browser browser = new Browser();
+    public static Boolean isTestinium = false;
 
     public static void setUp() {
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         PropertyConfigurator.configure("properties/log4j.properties");
         log.info("Settings Installation Start");
 
-        String key = "selidalk:b15114635d227239a56cf3934f10e075";
-        if (StringUtils.isNotEmpty(System.getenv("key"))) { //TESTINIUM'DA CALISMASI ICIN
-            capabilities.setCapability("key", key);
+        String KEY = "selidalk:b15114635d227239a56cf3934f10e075";
+        capabilities.setCapability("key", KEY);
+        if (StringUtils.isEmpty(System.getenv("key"))){
+            browser.createLocalDriver();
+        }
+        else {
             try {
                 capabilities.setCapability("takesScreenshot", true);
-                capabilities.setPlatform(Platform.MAC);
+                log.info("takesScreenshot");
+                isTestinium = true;
                 setDriver(new RemoteWebDriver(new URL("http://hub.testinium.io/wd/hub"), capabilities));
             } catch (MalformedURLException e) {
                 log.error(e.getMessage());
             }
-        } else { // LOCAL'DE CALISMASI ICIN
-            browser.createLocalDriver();
+
         }
     }
 
