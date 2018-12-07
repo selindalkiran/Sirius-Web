@@ -8,7 +8,9 @@ import mapping.MapMethodType;
 import com.thoughtworks.gauge.AfterScenario;
 import com.thoughtworks.gauge.BeforeScenario;
 import com.thoughtworks.gauge.Step;
+import org.apache.commons.lang.StringUtils;
 import org.apache.log4j.PropertyConfigurator;
+import org.junit.Assert;
 import util.ContextPage;
 
 import static base.BaseTest.getDriver;
@@ -41,6 +43,13 @@ public class StepImplementation extends BaseTest {
     public  void  clickButton(String button) {
         base.Click( foundActivity( MapMethodType.CLICK_ELEMENT, button ) );
     }
+    @Step("<by> elementinden gelen text <text> değerini içerir")
+    public void getTextContains(String by, String text) {
+        String str = driver.findElement(foundActivity(MapMethodType.IS_ELEMENT, by)).getText();
+        Assert.assertFalse(by+" alanı boş geldi",StringUtils.isEmpty(str));
+        Assert.assertTrue(by+" alanından gelen değer "+text+" değerini içermiyor",str.contains(text));
+    }
+
 
     @Step("<by> alanına <text> metni yazılır")
     public  void  inputText(String by, String text) {

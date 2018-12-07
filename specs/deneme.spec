@@ -7,7 +7,7 @@ denemeSirius
 -------------
 Tags:deneme
 
-* "https://www.n11.com/" url sayfasina gidilir
+* "https://www.n11.com/" adresine gidilir
 * "POPUP_KAPAT" butonuna tıklanır
 * "GIRIS_YAP" butonuna tıklanır
 * "EMAIL" alanına "selidalk@gmail.com" metni yazılır
