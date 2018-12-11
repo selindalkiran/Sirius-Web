@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a9d157b-1aa7-48aa-aa9a-4d5e81359992" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/specs/SiriusLogin.spec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/web.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/web.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapJSON/click-element.json" beforeDir="false" afterPath="$PROJECT_DIR$/mapJSON/click-element.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapJSON/input-element.json" beforeDir="false" afterPath="$PROJECT_DIR$/mapJSON/input-element.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/properties/driver/chromedriverwin.exe" beforeDir="false" afterPath="$PROJECT_DIR$/properties/driver/chromedriverwin.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/specs/Google.spec" beforeDir="false" afterPath="$PROJECT_DIR$/specs/Google.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/specs/example.spec" beforeDir="false" afterPath="$PROJECT_DIR$/specs/example.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/StepImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/StepImplementation.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,56 +22,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BasePageUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/base/BasePageUtil.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/specs/example.spec">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Browser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/util/Browser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="26" column="65" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Deneme.cpt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/specs/Deneme.cpt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/specs/SiriusLogin.spec">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+              <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainPage.spec" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/specs/MainPage.spec">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="119">
               <caret line="7" column="46" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/specs/deneme.spec">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mapJSON/input-element.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mapJSON/click-element.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -77,6 +83,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Specification" />
       </list>
     </option>
   </component>
@@ -90,8 +97,6 @@
         <option value="$PROJECT_DIR$/src/test/java/utils/WaitingActions.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/Browser.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/dropbBoxApi.java" />
-        <option value="$PROJECT_DIR$/mapJSON/input-element.json" />
-        <option value="$PROJECT_DIR$/mapJSON/click-element.json" />
         <option value="$PROJECT_DIR$/mapJSON/is-element.json" />
         <option value="$PROJECT_DIR$/src/test/java/utils/Quickstart.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/GoogleAccountCredential.java" />
@@ -109,10 +114,14 @@
         <option value="$PROJECT_DIR$/src/test/java/test/StepImplementation.java" />
         <option value="$PROJECT_DIR$/src/test/java/util/Browser.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/specs/example.spec" />
         <option value="$PROJECT_DIR$/specs/testinium.spec" />
         <option value="$PROJECT_DIR$/src/test/java/base/BasePageUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/base/BaseTest.java" />
+        <option value="$PROJECT_DIR$/specs/Google.spec" />
+        <option value="$PROJECT_DIR$/specs/example.spec" />
+        <option value="$PROJECT_DIR$/mapJSON/input-element.json" />
+        <option value="$PROJECT_DIR$/specs/SiriusLogin.spec" />
+        <option value="$PROJECT_DIR$/mapJSON/click-element.json" />
       </list>
     </option>
   </component>
@@ -123,93 +132,45 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="SiriunWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sirius" type="462c0819:PsiDirectoryNode" />
+              <item name="Sirius-Web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SiriunWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sirius" type="462c0819:PsiDirectoryNode" />
+              <item name="Sirius-Web" type="462c0819:PsiDirectoryNode" />
               <item name="mapJSON" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SiriunWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sirius" type="462c0819:PsiDirectoryNode" />
+              <item name="Sirius-Web" type="462c0819:PsiDirectoryNode" />
               <item name="specs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SiriunWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sirius" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SiriunWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sirius" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SiriunWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sirius" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SiriunWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sirius" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SiriunWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sirius" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mapping" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SiriunWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sirius" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SiriunWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sirius" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544553706658" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.thoughtworks.gauge" />
@@ -237,107 +198,116 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gauge Execution.Vowel counts in multiple word">
+  <component name="RunManager" selected="Gauge Execution.Sirius Login Senaryosu (1)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="dropbox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.dropbox" />
-      <module name="sirius" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
+    <configuration default="true" type="TestNG">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="AnaSayfa" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
+    <configuration name="Sirius Login Senaryosu (1)" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
       <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/MainPage.spec:11" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/SiriusLogin.spec:8" />
       <setting name="tags" value="" />
       <setting name="parallelNodes" value="" />
       <setting name="execInParallel" value="false" />
       <setting name="programParameters" value="" />
       <setting name="workingDirectory" value="" />
-      <setting name="moduleName" value="sirius" />
+      <setting name="moduleName" value="gaugeDnm" />
       <envMap />
       <setting name="rowsRange" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="Vowel counts in multiple word" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
+    <configuration name="Sirius Login Senaryosu (3)" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
       <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/example.spec:11" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/SiriusLogin.spec:8" />
       <setting name="tags" value="" />
       <setting name="parallelNodes" value="" />
       <setting name="execInParallel" value="false" />
       <setting name="programParameters" value="" />
       <setting name="workingDirectory" value="" />
-      <setting name="moduleName" value="sirius" />
+      <setting name="moduleName" value="gaugeDnm" />
       <envMap />
       <setting name="rowsRange" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="denemeSirius" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
+    <configuration name="Sirius Login Senaryosu (4)" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
       <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/deneme.spec:6" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/SiriusLogin.spec:8" />
       <setting name="tags" value="" />
       <setting name="parallelNodes" value="" />
       <setting name="execInParallel" value="false" />
       <setting name="programParameters" value="" />
       <setting name="workingDirectory" value="" />
-      <setting name="moduleName" value="sirius" />
+      <setting name="moduleName" value="gaugeDnm" />
       <envMap />
       <setting name="rowsRange" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sirius Login Senaryosu (5)" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/SiriusLogin.spec:8" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="gaugeDnm" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sirius Login Senaryosu" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/SiriusLogin.spec:8" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="gaugeDnm" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
-      <item itemvalue="Gauge Execution.Vowel counts in multiple word" />
-      <item itemvalue="Application.dropbox" />
-      <item itemvalue="Gauge Execution.denemeSirius" />
-      <item itemvalue="Gauge Execution.AnaSayfa" />
+      <item itemvalue="Gauge Execution.Sirius Login Senaryosu (3)" />
+      <item itemvalue="Gauge Execution.Sirius Login Senaryosu (4)" />
+      <item itemvalue="Gauge Execution.Sirius Login Senaryosu (5)" />
+      <item itemvalue="Gauge Execution.Sirius Login Senaryosu" />
+      <item itemvalue="Gauge Execution.Sirius Login Senaryosu (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gauge Execution.Vowel counts in multiple word" />
-        <item itemvalue="Gauge Execution.AnaSayfa" />
-        <item itemvalue="Gauge Execution.denemeSirius" />
-        <item itemvalue="Application.dropbox" />
+        <item itemvalue="Gauge Execution.Sirius Login Senaryosu (1)" />
+        <item itemvalue="Gauge Execution.Sirius Login Senaryosu" />
+        <item itemvalue="Gauge Execution.Sirius Login Senaryosu (5)" />
+        <item itemvalue="Gauge Execution.Sirius Login Senaryosu (4)" />
+        <item itemvalue="Gauge Execution.Sirius Login Senaryosu (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -355,180 +325,71 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="denemeSirius - 2018.11.29 at 11h 39m 59s.xml">
-      <configuration name="denemeSirius" configurationId="executeSpecs" />
+    <history-entry file="Vowel_counts_in_multiple_word - 2018.12.10 at 21h 45m 22s.xml">
+      <configuration name="Vowel counts in multiple word" configurationId="executeSpecs" />
     </history-entry>
-    <history-entry file="denemeSirius - 2018.12.03 at 11h 27m 35s.xml">
-      <configuration name="denemeSirius" configurationId="executeSpecs" />
+    <history-entry file="Vowel_counts_in_multiple_word_(1) - 2018.12.10 at 21h 46m 00s.xml">
+      <configuration name="Vowel counts in multiple word (1)" configurationId="executeSpecs" />
     </history-entry>
-    <history-entry file="denemeSirius - 2018.12.03 at 11h 28m 08s.xml">
-      <configuration name="denemeSirius" configurationId="executeSpecs" />
+    <history-entry file="Vowel_counts_in_multiple_word - 2018.12.11 at 11h 05m 17s.xml">
+      <configuration name="Vowel counts in multiple word" configurationId="executeSpecs" />
     </history-entry>
-    <history-entry file="denemeSirius - 2018.12.03 at 11h 30m 49s.xml">
-      <configuration name="denemeSirius" configurationId="executeSpecs" />
+    <history-entry file="Sirius_Login_Senaryosu - 2018.12.11 at 21h 12m 00s.xml">
+      <configuration name="Sirius Login Senaryosu" configurationId="executeSpecs" />
     </history-entry>
-    <history-entry file="denemeSirius - 2018.12.03 at 11h 33m 03s.xml">
-      <configuration name="denemeSirius" configurationId="executeSpecs" />
+    <history-entry file="Sirius_Login_Senaryosu_(1) - 2018.12.11 at 21h 14m 23s.xml">
+      <configuration name="Sirius Login Senaryosu (1)" configurationId="executeSpecs" />
     </history-entry>
-    <history-entry file="denemeSirius - 2018.12.03 at 14h 28m 24s.xml">
-      <configuration name="denemeSirius" configurationId="executeSpecs" />
+    <history-entry file="Sirius_Login_Senaryosu_(2) - 2018.12.11 at 21h 21m 32s.xml">
+      <configuration name="Sirius Login Senaryosu (2)" configurationId="executeSpecs" />
     </history-entry>
-    <history-entry file="denemeSirius - 2018.12.03 at 14h 29m 04s.xml">
-      <configuration name="denemeSirius" configurationId="executeSpecs" />
+    <history-entry file="Sirius_Login_Senaryosu_(3) - 2018.12.11 at 21h 24m 08s.xml">
+      <configuration name="Sirius Login Senaryosu (3)" configurationId="executeSpecs" />
     </history-entry>
-    <history-entry file="denemeSirius - 2018.12.03 at 14h 30m 15s.xml">
-      <configuration name="denemeSirius" configurationId="executeSpecs" />
+    <history-entry file="Sirius_Login_Senaryosu_(4) - 2018.12.11 at 21h 28m 25s.xml">
+      <configuration name="Sirius Login Senaryosu (4)" configurationId="executeSpecs" />
     </history-entry>
-    <history-entry file="AnaSayfa - 2018.12.03 at 14h 45m 19s.xml">
-      <configuration name="AnaSayfa" configurationId="executeSpecs" />
+    <history-entry file="Sirius_Login_Senaryosu_(5) - 2018.12.11 at 21h 32m 28s.xml">
+      <configuration name="Sirius Login Senaryosu (5)" configurationId="executeSpecs" />
     </history-entry>
-    <history-entry file="AnaSayfa - 2018.12.04 at 11h 34m 31s.xml">
-      <configuration name="AnaSayfa" configurationId="executeSpecs" />
+    <history-entry file="Sirius_Login_Senaryosu - 2018.12.11 at 21h 40m 37s.xml">
+      <configuration name="Sirius Login Senaryosu" configurationId="executeSpecs" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50080776" side_tool="true" weight="0.32965517" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4110345" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49919224" weight="0.32965517" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498366" visible="true" weight="0.28271407" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498366" visible="true" weight="0.30364373" />
       <window_info id="Structure" order="1" sideWeight="0.501634" side_tool="true" weight="0.2584814" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32965517" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5238866" visible="true" weight="0.6412078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49919224" weight="0.32965517" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.47611335" side_tool="true" weight="0.41030195" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32965517" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/mapping/MapValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/base/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/Browser.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/mapping/MapMethodType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mapping/Mapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/base/BasePageUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/specs/deneme.spec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mapping/MapValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/specs/deneme.spec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/Browser.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/mapping/MapMethodType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mapping/Mapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="23" column="71" lean-forward="true" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/StepImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/specs/example.spec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/base/BasePageUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/base/GaugeBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/properties/config/config.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -547,20 +408,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/utils/DriveQuickstart.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/utils/GoogleAccountCredential.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/utils/drive.java" />
-    <entry file="file://$PROJECT_DIR$/mapJSON/input-element.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapJSON/click-element.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mapJSON/is-element.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -569,13 +416,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utils/Browser.java" />
-    <entry file="file://$PROJECT_DIR$/specs/deneme.spec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/base/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -647,60 +487,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/base/GaugeBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/specs/Deneme.cpt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mapping/Mapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/StepImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/specs/testinium.spec" />
-    <entry file="file://$PROJECT_DIR$/specs/example.spec">
+    <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/specs/MainPage.spec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="46" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/base/BasePageUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        <state relative-caret-position="238">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -709,7 +500,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/util/Browser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="238">
           <caret line="26" column="65" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -717,13 +508,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseTest.java">
+    <entry file="file://$PROJECT_DIR$/specs/Deneme.cpt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="85">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specs/Google.spec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specs/deneme.spec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mapping/Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/StepImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1144#1145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/base/GaugeBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/base/BasePageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="593" column="16" lean-forward="true" selection-start-line="593" selection-start-column="16" selection-end-line="593" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specs/example.spec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specs/MainPage.spec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapJSON/input-element.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapJSON/click-element.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specs/SiriusLogin.spec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
         </state>
       </provider>
     </entry>

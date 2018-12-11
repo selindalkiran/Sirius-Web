@@ -1,9 +1,12 @@
 {
 
-"EMAIL": {
-  "id":"email"
+"TELEFON": {
+  "id":"login_phoneNumber"
 },
   "SIFRE": {
-    "id": "password"
+    "id": "login_password"
+  },
+  "ARAMA": {
+    "cssSelector":"#tsf > div:nth-child(2) > div > div.RNNXgb > div > div.a4bIc > input"
   }
 }

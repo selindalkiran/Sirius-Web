@@ -10,4 +10,4 @@ I'm feeling Lucky
 
 * "https://www.google.com/" adresine gidilir
 * "Arama" alanına "test" metni yazılır
-* "KENDIMI SANSLI HISSEDIYORUM" butonuna tıklanır
+* "KENDIMI_SANSLI_HISSEDIYORUM" butonuna tıklanır

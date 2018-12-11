@@ -354,3 +354,144 @@
 2018-12-07 10:58:50 INFO  Mapper:38 - ******* BASE PATH :mapJSON/
 2018-12-07 10:58:50 INFO  Mapper:40 - EVENT ACTIVITY TYPE :input-element
 2018-12-07 10:58:50 ERROR Mapper:73 - ADis not found in JSON file
+2018-12-10 21:33:41 INFO  BaseTest:30 - Settings Installation Start
+2018-12-10 21:34:02 INFO  Mapper:38 - ******* BASE PATH :mapJSON/
+2018-12-10 21:34:02 INFO  Mapper:40 - EVENT ACTIVITY TYPE :click-element
+2018-12-10 21:34:02 INFO  Mapper:57 - ******* Map :{"cssSelector":"#header > div > div > div.hMedMenu > div.customMenu > div.myLocationHolder.customMenuItem > div.myLocation-headsUp > div > span.myLocation-close-info"}
+2018-12-10 21:34:02 INFO  Mapper:78 - BY GENERATE :cssSelector-"#header > div > div > div.hMedMenu > div.customMenu > div.myLocationHolder.customMenuItem > div.myLocation-headsUp > div > span.myLocation-close-info"
+2018-12-10 21:34:02 INFO  Mapper:81 - BY :By.cssSelector: #header > div > div > div.hMedMenu > div.customMenu > div.myLocationHolder.customMenuItem > div.myLocation-headsUp > div > span.myLocation-close-info
+2018-12-10 21:34:03 INFO  GaugeBase:1009 - Waiting Actions Process Clickable
+2018-12-10 21:34:03 INFO  GaugeBase:593 - Element Clicked :[[ChromeDriver: chrome on XP (44bfd1e585bf0835ccee8c6b93c99167)] -> css selector: #header > div > div > div.hMedMenu > div.customMenu > div.myLocationHolder.customMenuItem > div.myLocation-headsUp > div > span.myLocation-close-info]
+2018-12-10 21:34:03 INFO  Mapper:38 - ******* BASE PATH :mapJSON/
+2018-12-10 21:34:03 INFO  Mapper:40 - EVENT ACTIVITY TYPE :click-element
+2018-12-10 21:34:03 INFO  Mapper:57 - ******* Map :{"cssSelector":"#header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn"}
+2018-12-10 21:34:03 INFO  Mapper:78 - BY GENERATE :cssSelector-"#header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn"
+2018-12-10 21:34:03 INFO  Mapper:81 - BY :By.cssSelector: #header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn
+2018-12-10 21:34:03 INFO  GaugeBase:1009 - Waiting Actions Process Clickable
+2018-12-10 21:34:03 INFO  GaugeBase:593 - Element Clicked :[[ChromeDriver: chrome on XP (44bfd1e585bf0835ccee8c6b93c99167)] -> css selector: #header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn]
+2018-12-10 21:34:06 INFO  BaseTest:56 - selidalk@gmail.com
+2018-12-10 21:34:06 INFO  Mapper:38 - ******* BASE PATH :mapJSON/
+2018-12-10 21:34:06 INFO  Mapper:40 - EVENT ACTIVITY TYPE :input-element
+2018-12-10 21:34:06 INFO  Mapper:57 - ******* Map :{"id":"email"}
+2018-12-10 21:34:06 INFO  Mapper:78 - BY GENERATE :id-"email"
+2018-12-10 21:34:06 INFO  Mapper:81 - BY :By.id: email
+2018-12-10 21:34:07 INFO  GaugeBase:1009 - Waiting Actions Process Clickable
+2018-12-10 21:34:07 INFO  GaugeBase:676 - Element Send Keys : selidalk@gmail.com-[[ChromeDriver: chrome on XP (44bfd1e585bf0835ccee8c6b93c99167)] -> id: email]
+2018-12-10 21:35:21 INFO  BaseTest:30 - Settings Installation Start
+2018-12-10 21:35:34 INFO  BaseTest:56 - test
+2018-12-10 21:35:34 INFO  Mapper:38 - ******* BASE PATH :mapJSON/
+2018-12-10 21:35:34 INFO  Mapper:40 - EVENT ACTIVITY TYPE :input-element
+2018-12-10 21:35:34 ERROR Mapper:73 - Aramais not found in JSON file
+2018-12-10 21:36:35 INFO  BaseTest:30 - Settings Installation Start
+2018-12-10 21:37:34 INFO  BaseTest:30 - Settings Installation Start
+2018-12-10 21:37:41 INFO  BaseTest:56 - test
+2018-12-10 21:37:41 INFO  Mapper:38 - ******* BASE PATH :mapJSON/
+2018-12-10 21:37:41 INFO  Mapper:40 - EVENT ACTIVITY TYPE :input-element
+2018-12-10 21:37:41 ERROR Mapper:73 - Aramais not found in JSON file
+2018-12-10 21:43:44 INFO  BaseTest:30 - Settings Installation Start
+2018-12-10 21:43:54 INFO  BaseTest:56 - test
+2018-12-10 21:43:54 INFO  Mapper:38 - ******* BASE PATH :mapJSON/
+2018-12-10 21:43:54 INFO  Mapper:40 - EVENT ACTIVITY TYPE :input-element
+2018-12-10 21:43:54 ERROR Mapper:73 - Aramais not found in JSON file
+2018-12-10 21:45:12 INFO  BaseTest:30 - Settings Installation Start
+2018-12-10 21:45:19 INFO  BaseTest:56 - test
+2018-12-10 21:45:19 INFO  Mapper:38 - ******* BASE PATH :mapJSON/
+2018-12-10 21:45:19 INFO  Mapper:40 - EVENT ACTIVITY TYPE :input-element
+2018-12-10 21:45:19 INFO  Mapper:57 - ******* Map :{"cssSelector":"#tsf > div:nth-child(2) > div > div.RNNXgb > div > div.a4bIc > input"}
+2018-12-10 21:45:19 INFO  Mapper:78 - BY GENERATE :cssSelector-"#tsf > div:nth-child(2) > div > div.RNNXgb > div > div.a4bIc > input"
+2018-12-10 21:45:19 INFO  Mapper:81 - BY :By.cssSelector: #tsf > div:nth-child(2) > div > div.RNNXgb > div > div.a4bIc > input
+2018-12-10 21:45:19 INFO  GaugeBase:1009 - Waiting Actions Process Clickable
+2018-12-10 21:45:19 INFO  GaugeBase:676 - Element Send Keys : test-[[ChromeDriver: chrome on XP (6def2e8a4cb3f235f4d00a16d2fcea14)] -> css selector: #tsf > div:nth-child(2) > div > div.RNNXgb > div > div.a4bIc > input]
+2018-12-10 21:45:52 INFO  BaseTest:30 - Settings Installation Start
+2018-12-11 11:04:57 INFO  BaseTest:30 - Settings Installation Start
+2018-12-11 21:11:43 INFO  BaseTest:30 - Settings Installation Start
+2018-12-11 21:13:47 INFO  BaseTest:30 - Settings Installation Start
+2018-12-11 21:20:54 INFO  BaseTest:30 - Settings Installation Start
+2018-12-11 21:21:27 INFO  Mapper:38 - ******* BASE PATH :mapJSON/
+2018-12-11 21:21:27 INFO  Mapper:40 - EVENT ACTIVITY TYPE :click-element
+2018-12-11 21:23:31 INFO  BaseTest:30 - Settings Installation Start
+2018-12-11 21:24:04 INFO  Mapper:38 - ******* BASE PATH :mapJSON/
+2018-12-11 21:24:04 INFO  Mapper:40 - EVENT ACTIVITY TYPE :click-element
+2018-12-11 21:24:04 INFO  Mapper:57 - ******* Map :{"cssSelector":"#Homepage > header > nav > div > div > ul:nth-child(2) > li:nth-child(2) > a"}
+2018-12-11 21:24:04 INFO  Mapper:78 - BY GENERATE :cssSelector-"#Homepage > header > nav > div > div > ul:nth-child(2) > li:nth-child(2) > a"
+2018-12-11 21:24:04 INFO  Mapper:81 - BY :By.cssSelector: #Homepage > header > nav > div > div > ul:nth-child(2) > li:nth-child(2) > a
+2018-12-11 21:24:04 INFO  GaugeBase:1009 - Waiting Actions Process Clickable
+2018-12-11 21:24:04 INFO  GaugeBase:593 - Element Clicked :[[ChromeDriver: chrome on XP (d62551987d8064c287eabc90a2e3e273)] -> css selector: #Homepage > header > nav > div > div > ul:nth-child(2) > li:nth-child(2) > a]
+2018-12-11 21:27:47 INFO  BaseTest:30 - Settings Installation Start
+2018-12-11 21:28:21 INFO  Mapper:38 - ******* BASE PATH :mapJSON/
+2018-12-11 21:28:21 INFO  Mapper:40 - EVENT ACTIVITY TYPE :click-element
+2018-12-11 21:28:21 INFO  Mapper:57 - ******* Map :{"cssSelector":"#Homepage > header > nav > div > div > ul:nth-child(2) > li:nth-child(3) > a"}
+2018-12-11 21:28:21 INFO  Mapper:78 - BY GENERATE :cssSelector-"#Homepage > header > nav > div > div > ul:nth-child(2) > li:nth-child(3) > a"
+2018-12-11 21:28:21 INFO  Mapper:81 - BY :By.cssSelector: #Homepage > header > nav > div > div > ul:nth-child(2) > li:nth-child(3) > a
+2018-12-11 21:28:21 INFO  GaugeBase:1009 - Waiting Actions Process Clickable
+2018-12-11 21:28:21 INFO  GaugeBase:593 - Element Clicked :[[ChromeDriver: chrome on XP (7375f4b10fc2e1feeb3c135b09460d29)] -> css selector: #Homepage > header > nav > div > div > ul:nth-child(2) > li:nth-child(3) > a]
+2018-12-11 21:31:40 INFO  BaseTest:30 - Settings Installation Start
+2018-12-11 21:32:15 INFO  Mapper:38 - ******* BASE PATH :mapJSON/
+2018-12-11 21:32:15 INFO  Mapper:40 - EVENT ACTIVITY TYPE :click-element
+2018-12-11 21:32:15 INFO  Mapper:57 - ******* Map :{"cssSelector":"#Homepage > header > nav > div > div > ul:nth-child(2) > li:nth-child(3) > a"}
+2018-12-11 21:32:15 INFO  Mapper:78 - BY GENERATE :cssSelector-"#Homepage > header > nav > div > div > ul:nth-child(2) > li:nth-child(3) > a"
+2018-12-11 21:32:15 INFO  Mapper:81 - BY :By.cssSelector: #Homepage > header > nav > div > div > ul:nth-child(2) > li:nth-child(3) > a
+2018-12-11 21:32:16 INFO  GaugeBase:1009 - Waiting Actions Process Clickable
+2018-12-11 21:32:16 INFO  GaugeBase:593 - Element Clicked :[[ChromeDriver: chrome on XP (9f2187da03eae82b876bc8899b828283)] -> css selector: #Homepage > header > nav > div > div > ul:nth-child(2) > li:nth-child(3) > a]
+2018-12-11 21:39:55 INFO  BaseTest:30 - Settings Installation Start
+2018-12-11 21:40:12 INFO  Mapper:38 - ******* BASE PATH :mapJSON/
+2018-12-11 21:40:12 INFO  Mapper:40 - EVENT ACTIVITY TYPE :click-element
+2018-12-11 21:40:12 INFO  Mapper:57 - ******* Map :{"cssSelector":"#Homepage > header > nav > div > div > ul:nth-child(2) > li:nth-child(2) > a"}
+2018-12-11 21:40:12 INFO  Mapper:78 - BY GENERATE :cssSelector-"#Homepage > header > nav > div > div > ul:nth-child(2) > li:nth-child(2) > a"
+2018-12-11 21:40:12 INFO  Mapper:81 - BY :By.cssSelector: #Homepage > header > nav > div > div > ul:nth-child(2) > li:nth-child(2) > a
+2018-12-11 21:40:12 INFO  GaugeBase:1009 - Waiting Actions Process Clickable
+2018-12-11 21:40:12 INFO  GaugeBase:593 - Element Clicked :[[ChromeDriver: chrome on XP (2be61770d5a298cb0c1972a9767890d8)] -> css selector: #Homepage > header > nav > div > div > ul:nth-child(2) > li:nth-child(2) > a]
+2018-12-11 21:40:22 INFO  BaseTest:56 - 5555555511
+2018-12-11 21:40:22 INFO  Mapper:38 - ******* BASE PATH :mapJSON/
+2018-12-11 21:40:22 INFO  Mapper:40 - EVENT ACTIVITY TYPE :input-element
+2018-12-11 21:40:22 INFO  Mapper:57 - ******* Map :{"id":"login_phoneNumber"}
+2018-12-11 21:40:22 INFO  Mapper:78 - BY GENERATE :id-"login_phoneNumber"
+2018-12-11 21:40:22 INFO  Mapper:81 - BY :By.id: login_phoneNumber
+2018-12-11 21:40:22 INFO  GaugeBase:1009 - Waiting Actions Process Clickable
+2018-12-11 21:40:22 INFO  GaugeBase:676 - Element Send Keys : 5555555511-[[ChromeDriver: chrome on XP (2be61770d5a298cb0c1972a9767890d8)] -> id: login_phoneNumber]
+2018-12-11 21:40:22 INFO  BaseTest:56 - 123456
+2018-12-11 21:40:22 INFO  Mapper:38 - ******* BASE PATH :mapJSON/
+2018-12-11 21:40:22 INFO  Mapper:40 - EVENT ACTIVITY TYPE :input-element
+2018-12-11 21:40:22 INFO  Mapper:57 - ******* Map :{"id":"login_password"}
+2018-12-11 21:40:22 INFO  Mapper:78 - BY GENERATE :id-"login_password"
+2018-12-11 21:40:22 INFO  Mapper:81 - BY :By.id: login_password
+2018-12-11 21:40:23 INFO  GaugeBase:1009 - Waiting Actions Process Clickable
+2018-12-11 21:40:23 INFO  GaugeBase:676 - Element Send Keys : 123456-[[ChromeDriver: chrome on XP (2be61770d5a298cb0c1972a9767890d8)] -> id: login_password]
+2018-12-11 21:40:23 INFO  Mapper:38 - ******* BASE PATH :mapJSON/
+2018-12-11 21:40:23 INFO  Mapper:40 - EVENT ACTIVITY TYPE :click-element
+2018-12-11 21:40:23 INFO  Mapper:57 - ******* Map :{"id":"login_submit"}
+2018-12-11 21:40:23 INFO  Mapper:78 - BY GENERATE :id-"login_submit"
+2018-12-11 21:40:23 INFO  Mapper:81 - BY :By.id: login_submit
+2018-12-11 21:40:23 INFO  GaugeBase:1009 - Waiting Actions Process Clickable
+2018-12-11 21:40:23 INFO  GaugeBase:593 - Element Clicked :[[ChromeDriver: chrome on XP (2be61770d5a298cb0c1972a9767890d8)] -> id: login_submit]
+2018-12-11 21:42:11 INFO  BaseTest:30 - Settings Installation Start
+2018-12-11 21:42:27 INFO  Mapper:38 - ******* BASE PATH :mapJSON/
+2018-12-11 21:42:27 INFO  Mapper:40 - EVENT ACTIVITY TYPE :click-element
+2018-12-11 21:42:27 INFO  Mapper:57 - ******* Map :{"cssSelector":"#Homepage > header > nav > div > div > ul:nth-child(2) > li:nth-child(2) > a"}
+2018-12-11 21:42:27 INFO  Mapper:78 - BY GENERATE :cssSelector-"#Homepage > header > nav > div > div > ul:nth-child(2) > li:nth-child(2) > a"
+2018-12-11 21:42:27 INFO  Mapper:81 - BY :By.cssSelector: #Homepage > header > nav > div > div > ul:nth-child(2) > li:nth-child(2) > a
+2018-12-11 21:42:27 INFO  GaugeBase:1009 - Waiting Actions Process Clickable
+2018-12-11 21:42:27 INFO  GaugeBase:593 - Element Clicked :[[ChromeDriver: chrome on XP (f5eddbdd1f7362ed270c12d74367fdc1)] -> css selector: #Homepage > header > nav > div > div > ul:nth-child(2) > li:nth-child(2) > a]
+2018-12-11 21:42:37 INFO  BaseTest:56 - 5555555511
+2018-12-11 21:42:37 INFO  Mapper:38 - ******* BASE PATH :mapJSON/
+2018-12-11 21:42:37 INFO  Mapper:40 - EVENT ACTIVITY TYPE :input-element
+2018-12-11 21:42:37 INFO  Mapper:57 - ******* Map :{"id":"login_phoneNumber"}
+2018-12-11 21:42:37 INFO  Mapper:78 - BY GENERATE :id-"login_phoneNumber"
+2018-12-11 21:42:37 INFO  Mapper:81 - BY :By.id: login_phoneNumber
+2018-12-11 21:42:37 INFO  GaugeBase:1009 - Waiting Actions Process Clickable
+2018-12-11 21:42:37 INFO  GaugeBase:676 - Element Send Keys : 5555555511-[[ChromeDriver: chrome on XP (f5eddbdd1f7362ed270c12d74367fdc1)] -> id: login_phoneNumber]
+2018-12-11 21:42:37 INFO  BaseTest:56 - 123456
+2018-12-11 21:42:37 INFO  Mapper:38 - ******* BASE PATH :mapJSON/
+2018-12-11 21:42:37 INFO  Mapper:40 - EVENT ACTIVITY TYPE :input-element
+2018-12-11 21:42:37 INFO  Mapper:57 - ******* Map :{"id":"login_password"}
+2018-12-11 21:42:37 INFO  Mapper:78 - BY GENERATE :id-"login_password"
+2018-12-11 21:42:37 INFO  Mapper:81 - BY :By.id: login_password
+2018-12-11 21:42:37 INFO  GaugeBase:1009 - Waiting Actions Process Clickable
+2018-12-11 21:42:37 INFO  GaugeBase:676 - Element Send Keys : 123456-[[ChromeDriver: chrome on XP (f5eddbdd1f7362ed270c12d74367fdc1)] -> id: login_password]
+2018-12-11 21:42:38 INFO  Mapper:38 - ******* BASE PATH :mapJSON/
+2018-12-11 21:42:38 INFO  Mapper:40 - EVENT ACTIVITY TYPE :click-element
+2018-12-11 21:42:38 INFO  Mapper:57 - ******* Map :{"id":"login_submit"}
+2018-12-11 21:42:38 INFO  Mapper:78 - BY GENERATE :id-"login_submit"
+2018-12-11 21:42:38 INFO  Mapper:81 - BY :By.id: login_submit
+2018-12-11 21:42:38 INFO  GaugeBase:1009 - Waiting Actions Process Clickable
+2018-12-11 21:42:38 INFO  GaugeBase:593 - Element Clicked :[[ChromeDriver: chrome on XP (f5eddbdd1f7362ed270c12d74367fdc1)] -> id: login_submit]

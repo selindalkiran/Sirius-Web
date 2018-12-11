@@ -1,11 +1,12 @@
 {
 "GIRIS_YAP" : {
-  "cssSelector": "#header > div > div > div.hMedMenu > div.customMenu > div.myAccountHolder.customMenuItem.withLocalization > div > div > a.btnSignIn"
+  "cssSelector": "#Homepage > header > nav > div > div > ul:nth-child(2) > li:nth-child(2) > a"
 },
-"GIRIS_BUTONU": {
-  "id": "loginButton"
+"GONDER": {
+  "id": "login_submit"
 },
-  "POPUP_KAPAT": {
-    "cssSelector" : "#header > div > div > div.hMedMenu > div.customMenu > div.myLocationHolder.customMenuItem > div.myLocation-headsUp > div > span.myLocation-close-info"
+  "KULLANICI": {
+    "cssSelector": "#Homepage > header > nav > div > div > ul:nth-child(2) > li:nth-child(3) > a"
   }
+
 }
