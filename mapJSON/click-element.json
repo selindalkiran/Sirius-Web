@@ -1,5 +1,5 @@
 {
-"GIRIS_YAP" : {
+"GIRIS YAP" : {
   "cssSelector": "#Homepage > header > nav > div > div > ul:nth-child(2) > li:nth-child(2) > a"
 },
 "GONDER": {
@@ -7,6 +7,56 @@
 },
   "KULLANICI": {
     "cssSelector": "#Homepage > header > nav > div > div > ul:nth-child(2) > li:nth-child(3) > a"
+  },
+  "HIZMET TALEBI": {
+    "cssSelector":  "#Homepage > header > nav > div > div > ul:nth-child(2) > li.nav-item.py-1.px-2 > a > strong"
+  },
+  "DOKTOR": {
+    "cssSelector": "#service_request_kind_medicType > div:nth-child(1) > label"
+  },
+  "GONDER DOKTOR": {
+    "cssSelector": "#service_request_kind_submit"
+  },
+  "AILE HEKIMI": {
+    "cssSelector": "#service_request_branch_doctor_branchType > div:nth-child(1) > label"
+  },
+  "GONDER AILE HEKIMI": {
+    "cssSelector": "#service_request_branch_doctor_submit"
+  },
+  "KENDIM": {
+    "cssSelector": "#service_request_relative_relative > div:nth-child(1)"
+  },
+  "GONDER KENDIM": {
+    "id": "service_request_relative_submit"
+  },
+  "OFIS": {
+    "cssSelector": "#service_request_address_address > div:nth-child(2) > label"
+  },
+  "GONDER OFIS": {
+    "id": "service_request_address_submit"
+  },
+  "GONDER TIMESHEET": {
+    "id": "service_request_timesheet_continue"
+  },
+  "GONDER NOTE": {
+    "id": "service_request_note_continue"
+  },
+  "BACK TO DASHBOARD": {
+    "cssSelector": "#ServiceRequestThanks > div > div > div > div > div > div > div > div > p.pt-2"
+  },
+  "KAYIT OL": {
+    "cssSelector": "#Homepage > header > nav > div > div > ul:nth-child(2) > li:nth-child(3) > a"
+  },
+  "ACCEPT POLICY": {
+    "id": "signup_terms"
+  },
+  "GONDER SIGNUP": {
+    "cssSelector": "#signup_submit"
+  },
+  "YIL":{
+  "cssSelector": "#service_request_timesheet_date_year"
+  },
+  "2019": {
+    "cssSelector":"#service_request_timesheet_date_year > option:nth-child(2)"
   }
-
 }

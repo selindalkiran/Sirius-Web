@@ -4,5 +4,8 @@
   },
   "TESTINIUM":{
       "cssSelector":"body > header > nav > div > a > img"
+  },
+  "HATA_PASSWORD": {
+    "cssSelector": "#Login > div > div > div > div > div > div > div.card-body > div.py-2.px-5 > form > span > span > span.form-error-message"
   }
 }

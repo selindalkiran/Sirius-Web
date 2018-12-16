@@ -3,15 +3,15 @@ package test;
 import base.BaseTest;
 import base.GaugeBase;
 
+import com.thoughtworks.gauge.*;
 import mapping.MapMethodType;
 
-import com.thoughtworks.gauge.AfterScenario;
-import com.thoughtworks.gauge.BeforeScenario;
-import com.thoughtworks.gauge.Step;
 import org.apache.commons.lang.StringUtils;
 import org.apache.log4j.PropertyConfigurator;
 import org.junit.Assert;
 import util.ContextPage;
+
+import java.util.Date;
 
 import static base.BaseTest.getDriver;
 import static base.BaseTest.setUp;
@@ -27,11 +27,26 @@ public class StepImplementation extends BaseTest {
         PropertyConfigurator.configure("properties/log4j.properties");
         setUp();
         base = new GaugeBase(getDriver());
+        driver.manage().window().getSize();
     }
 
     @AfterScenario
     public void afterMethod() {
         tearDown();
+    }
+
+    @AfterStep
+    public void screenShots(ExecutionContext context){
+        String specFileName = context.getCurrentScenario().getName();
+        String  title = driver.getTitle();
+
+        try {
+            Thread.sleep(10);
+            base.takeScreenShot(specFileName, title);
+
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
     @Step("<url> adresine gidilir")

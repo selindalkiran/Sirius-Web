@@ -8,5 +8,24 @@
   },
   "ARAMA": {
     "cssSelector":"#tsf > div:nth-child(2) > div > div.RNNXgb > div > div.a4bIc > input"
+  },
+  "NOTE": {
+    "id": "service_request_note_note"
+  },
+  "SINGUP TELNO": {
+    "id": "signup_phoneNumber"
+  },
+  "NAME": {
+    "id": "signup_name"
+  },
+  "SURNAME":{
+    "id": "signup_surname"
+  },
+  "PASSWORD": {
+    "id": "signup_password"
+  },
+  "BIRTDAY": {
+    "id": "signup_birthdate"
   }
+
 }
