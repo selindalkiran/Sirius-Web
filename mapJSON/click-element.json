@@ -14,17 +14,17 @@
   "DOKTOR": {
     "cssSelector": "#service_request_kind_medicType > div:nth-child(1) > label"
   },
-  "GONDER DOKTOR": {
+  "GONDER MEDIC": {
     "cssSelector": "#service_request_kind_submit"
   },
   "AILE HEKIMI": {
     "cssSelector": "#service_request_branch_doctor_branchType > div:nth-child(1) > label"
   },
-  "GONDER AILE HEKIMI": {
+  "GONDER DOKTOR BRANCH": {
     "cssSelector": "#service_request_branch_doctor_submit"
   },
   "KENDIM": {
-    "cssSelector": "#service_request_relative_relative > div:nth-child(1)"
+    "cssSelector": "#service_request_relative_relative > div:nth-child(1) > label"
   },
   "GONDER KENDIM": {
     "id": "service_request_relative_submit"
@@ -53,10 +53,91 @@
   "GONDER SIGNUP": {
     "cssSelector": "#signup_submit"
   },
-  "YIL":{
+  "DATE YEAR":{
   "cssSelector": "#service_request_timesheet_date_year"
   },
-  "2019": {
+  "YEAR": {
     "cssSelector":"#service_request_timesheet_date_year > option:nth-child(2)"
+  },
+  "DATE MONTH": {
+    "id": "service_request_timesheet_date_month"
+  },
+  "MONTH": {
+    "cssSelector": "#service_request_timesheet_date_month > option:nth-child(1)"
+  },
+  "DATE DAY": {
+    "id": "service_request_timesheet_date_day"
+  },
+  "DAY": {
+    "cssSelector": "#service_request_timesheet_date_day > option:nth-child(10)"
+  },
+  "PERIOD": {
+    "id": "service_request_timesheet_period"
+  },
+  "ONE TIME": {
+    "cssSelector": "#service_request_timesheet_period > option:nth-child(1)"
+  },
+  "MORNING EVENING": {
+    "cssSelector": "#service_request_timesheet_period > option:nth-child(2)"
+  },
+  "TIME HOUR": {
+    "id": "service_request_timesheet_firstperiod_hour"
+  },
+  "HOUR": {
+    "cssSelector": "#service_request_timesheet_firstperiod_hour > option:nth-child(21)"
+  },
+  "TIME MINUTE": {
+    "id": "service_request_timesheet_firstperiod_minute"
+  },
+  "MINUTE": {
+    "cssSelector": "#service_request_timesheet_firstperiod_minute > option:nth-child(16)"
+  },
+  "NURSE": {
+    "cssSelector": "#service_request_kind_medicType > div:nth-child(2) > label"
+  },
+  "EVDE ENJEKSIYON": {
+    "cssSelector": "#service_request_branch_nurse_branchType > div:nth-child(1) > label"
+  },
+  "EVDE KAN ALMA": {
+    "cssSelector": "#service_request_branch_nurse_branchType > div:nth-child(2) > label"
+  },
+  "EVDE SERUM": {
+    "cssSelector": "#service_request_branch_nurse_branchType > div:nth-child(3) > label"
+  },
+  "EVDE SONDA": {
+    "cssSelector": "#service_request_branch_nurse_branchType > div:nth-child(4) > label"
+  },
+  "EVDE PANSUMAN": {
+    "cssSelector": "#service_request_branch_nurse_branchType > div:nth-child(5) > label"
+  },
+  "GONDER NURSE BRANCH": {
+    "id": "service_request_branch_nurse_submit"
+  },
+  "FIZYOTERAPIST": {
+    "cssSelector": "#service_request_kind_medicType > div:nth-child(3) > label"
+  },
+  "KONUSMA TERAPISTI": {
+    "cssSelector": "#service_request_branch_physiotherapist_branchType > div:nth-child(1) > label"
+  },
+  "SOLUNUM TERAPISTI": {
+    "cssSelector": "#service_request_branch_physiotherapist_branchType > div:nth-child(2) > label"
+  },
+  "YUTMA TERAPISTI": {
+    "cssSelector": "#service_request_branch_physiotherapist_branchType > div:nth-child(3) > label"
+  },
+  "GENEL TERAPIST": {
+    "cssSelector": "#service_request_branch_physiotherapist_branchType > div:nth-child(4) > label"
+  },
+  "IS TERAPISTI": {
+    "cssSelector": "#service_request_branch_physiotherapist_branchType > div:nth-child(5) > label"
+  },
+  "GONDER FTR BRANCH": {
+    "id": "service_request_branch_physiotherapist_submit"
+  },
+  "DAHILIYE": {
+    "cssSelector": "#service_request_branch_doctor_branchType > div:nth-child(2) > label"
+  },
+  "SERVICEREQUEST CLOSE ICON": {
+    "cssSelector": "#ServiceRequestType > div > div > div > div > div > div > div.attendance > div:nth-child(3) > a"
   }
 }

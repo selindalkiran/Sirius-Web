@@ -1,10 +1,12 @@
 Created by Lenovo on 16.12.2018
 
 This is a concept file with following syntax for each concept.
-# Kullanıcı kaydolur
+
+
+# Kayıt ol aksiyonu alınır
+
 * "https://68.183.66.245/" adresine gidilir
 * "KAYIT OL" butonuna tıklanır
-* "2" saniye bekle$
 * "SINGUP TELNO" alanına "5555559988" metni yazılır
 * "NAME" alanına "Tuğçe" metni yazılır
 * "SURNAME" alanına "Akın" metni yazılır
